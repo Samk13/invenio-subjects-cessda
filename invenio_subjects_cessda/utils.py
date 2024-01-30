@@ -5,6 +5,7 @@
 # invenio-subjects-CESSDA is free software, you can redistribute it and/or
 # modify it under the terms of the MIT License; see LICENSE file details.
 
+import logging
 from urllib.parse import urlparse
 
 
@@ -21,3 +22,8 @@ def fix_url(obj_in):
     else:
         nyurl = "".join(f"{obj_in['uri']}".replace("[CODE]", vcode))
         return f"{nyurl}&id={obj_in['id']}"
+
+
+# Set up logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)

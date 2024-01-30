@@ -5,16 +5,13 @@
 # invenio-subjects-CESSDA is free software, you can redistribute it and/or
 # modify it under the terms of the MIT License; see LICENSE file details.
 
-import logging
+
 from asyncio import gather, run
 
 from aiohttp import ClientSession
 
 from invenio_subjects_cessda.config import urls
-
-# Set up logging
-logging.basicConfig(level=logging.INFO)
-logger = logging.getLogger(__name__)
+from invenio_subjects_cessda.utils import logger
 
 
 # Data fetching
@@ -25,7 +22,7 @@ async def fetch(session, url_obj):
             data = await res.json()
             return {"name": url_obj["name"], "data": data}
     except Exception as e:
-        logger.error("Error fetching %s: %s", url_obj['name'], e)
+        logger.error("Error fetching %s: %s", url_obj["name"], e)
         return None
 
 
