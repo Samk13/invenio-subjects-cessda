@@ -14,6 +14,10 @@ set -o nounset
 python -m check_manifest --no-build-isolation
 # Note: expansion of pytest_args looks like below to not cause an unbound
 # variable error when 1) "nounset" and 2) the array is empty.
+
+# see https://urllib3.readthedocs.io/en/latest/v2-migration-guide.html
+# export PYTHONWARNINGS="default"
+
 python -m pytest $@
 tests_exit_code=$?
 exit "$tests_exit_code"
