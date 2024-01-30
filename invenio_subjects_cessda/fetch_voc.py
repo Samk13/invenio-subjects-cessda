@@ -5,32 +5,38 @@
 # invenio-subjects-CESSDA is free software, you can redistribute it and/or
 # modify it under the terms of the MIT License; see LICENSE file details.
 
+import logging
 from asyncio import gather, run
 
 from aiohttp import ClientSession
 
 from invenio_subjects_cessda.config import urls
 
+# Set up logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
 
 # Data fetching
-async def fetch(session, url_obj, result):
+async def fetch(session, url_obj):
     """Fetch API calls."""
-    async with session.get(url_obj["endpoint"]) as res:
-        data = await res.json()
-        resp = dict(name=url_obj["name"], data=data)
-        result.append(resp)
-        return result
+    try:
+        async with session.get(url_obj["endpoint"]) as res:
+            data = await res.json()
+            return {"name": url_obj["name"], "data": data}
+    except Exception as e:
+        logger.error("Error fetching %s: %s", url_obj['name'], e)
+        return None
 
 
-async def gather_data(result):
+async def gather_data():
     """Gather workers."""
     async with ClientSession() as session:
-        tasks = [fetch(session, url, result) for url in urls]
-        await gather(*tasks)
+        tasks = [fetch(session, url) for url in urls]
+        results = await gather(*tasks, return_exceptions=True)
+        return [result for result in results if result is not None]
 
 
 def fetch_voc():
     """Fetch CESSDA voc and return a list."""
-    result = []
-    run(gather_data(result))
-    return result
+    return run(gather_data())
