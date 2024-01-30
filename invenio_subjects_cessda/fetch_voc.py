@@ -10,7 +10,6 @@ from asyncio import gather, run
 
 from aiohttp import ClientSession
 
-from invenio_subjects_cessda.config import urls
 from invenio_subjects_cessda.utils import logger
 
 
@@ -26,7 +25,7 @@ async def fetch(session, url_obj):
         return None
 
 
-async def gather_data():
+async def gather_data(urls):
     """Gather workers."""
     async with ClientSession() as session:
         tasks = [fetch(session, url) for url in urls]
@@ -34,6 +33,6 @@ async def gather_data():
         return [result for result in results if result is not None]
 
 
-def fetch_voc():
+def fetch_voc(urls):
     """Fetch CESSDA voc and return a list."""
-    return run(gather_data())
+    return run(gather_data(urls))

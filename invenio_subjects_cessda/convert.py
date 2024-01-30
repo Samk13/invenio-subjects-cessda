@@ -21,6 +21,7 @@ def convert_voc(data, dpath):
     Args:
         data (arr): voc arr
     """
+    secho(f"Converting ...")
     for v in data:
         for s in v["data"]:
             write2yaml((v["name"], s), dpath, cessda_schema, mode="a")

@@ -4,6 +4,12 @@
 #
 # invenio-subjects-CESSDA is free software, you can redistribute it and/or
 # modify it under the terms of the MIT License; see LICENSE file details.
+from pathlib import Path
+
+en_vocabularies_path = (
+    Path.cwd() / "invenio_subjects_cessda" / "vocabularies" / "cessda_voc.yaml"
+)
+
 
 """CESSDA vocabularies endpoints."""
 urls = [

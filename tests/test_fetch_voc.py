@@ -5,14 +5,12 @@
 # invenio-subjects-CESSDA is free software, you can redistribute it and/or
 # modify it under the terms of the MIT License; see LICENSE file details.
 
-import pytest
-
 from invenio_subjects_cessda.config import urls
 from invenio_subjects_cessda.fetch_voc import fetch_voc
 
 
-@pytest.mark.asyncio
+# @pytest.mark.asyncio
 def test_fetch_voc():
     """Test fetch_voc."""
-    fetch_res = fetch_voc()
+    fetch_res = fetch_voc(urls)
     assert len(fetch_res) == len(urls)
