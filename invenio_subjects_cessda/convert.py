@@ -12,16 +12,17 @@
 from click import secho
 
 from invenio_subjects_cessda.schemas import cessda_schema
+from invenio_subjects_cessda.utils import logger
 from invenio_subjects_cessda.writer import write2yaml
 
 
-def convert_voc(data, dpath):
+def convert_vocabularies(data, dpath):
     """Convert voc to yaml.
 
     Args:
         data (arr): voc arr
     """
-    secho(f"Converting ...")
+    logger.debug("Convert vocabularies started ...")
     for v in data:
         for s in v["data"]:
             write2yaml((v["name"], s), dpath, cessda_schema, mode="a")

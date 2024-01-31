@@ -16,6 +16,7 @@ from invenio_subjects_cessda.utils import logger
 # Data fetching
 async def fetch(session, url_obj):
     """Fetch API calls."""
+    logger.debug("Making request to '%s'", url_obj["endpoint"])
     try:
         async with session.get(url_obj["endpoint"]) as res:
             data = await res.json()
