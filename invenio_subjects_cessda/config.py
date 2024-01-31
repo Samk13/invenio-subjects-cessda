@@ -6,12 +6,16 @@
 # modify it under the terms of the MIT License; see LICENSE file details.
 from pathlib import Path
 
+# languages = ["en(SL)", "sv(TL)"]
+languages = ["en(SL)"]
+"""Languages to fetch"""
+
 en_vocabularies_path = (
     Path.cwd() / "invenio_subjects_cessda" / "vocabularies" / "cessda_voc.yaml"
 )
+"""CESSDA Vocabularies path destination"""
 
 
-"""CESSDA vocabularies endpoints."""
 urls = [
     {
         "name": "Aggregation Method",
@@ -129,4 +133,17 @@ urls = [
         "name": "Type of Translation Method",
         "endpoint": "https://vocabularies.cessda.eu/v2/codes/TypeofTranslationMethod/1.0/en",
     },
+    {
+        "name": "rexconcepts",
+        "endpoint": "https://vocabularies.cessda.eu/v2/codes/rexconcepts/1.4.0/en",
+    },
 ]
+
+
+vocabularies_published = [
+    {
+        "name": "all vocabularies versions and languages",
+        "endpoint": "https://vocabularies.cessda.eu/v2/vocabularies-published",
+    }
+]
+"""https://api.tech.cessda.eu/#/vocabulary-resource-v-2/getAllVocabulariesUsingGET"""

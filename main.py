@@ -5,14 +5,21 @@
 # invenio-subjects-CESSDA is free software, you can redistribute it and/or
 # modify it under the terms of the MIT License; see LICENSE file details.
 
-from invenio_subjects_cessda.config import en_vocabularies_path, urls
-from invenio_subjects_cessda.convert import convert_voc
+from invenio_subjects_cessda.config import (
+    en_vocabularies_path,
+    languages,
+    vocabularies_published,
+)
+from invenio_subjects_cessda.convert import convert_vocabularies
 from invenio_subjects_cessda.fetch_voc import fetch_voc
+from invenio_subjects_cessda.utils import get_latest_versions
 
 
 def main():
     """main entry point"""
-    convert_voc(fetch_voc(urls), str(en_vocabularies_path))
+    all_vocabularies_published = fetch_voc(vocabularies_published)
+    latest_versions_urls = get_latest_versions(all_vocabularies_published, languages)
+    convert_vocabularies(fetch_voc(latest_versions_urls), str(en_vocabularies_path))
 
 
 if __name__ == "__main__":
