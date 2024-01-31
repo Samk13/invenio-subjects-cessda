@@ -1,78 +1,63 @@
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfAddress_Mailing?v=1.1&id=8812
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_AUSSDA?v=6.0.0&id=20723
   scheme: CESSDA
-  subject: Mailing address
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfAddress_Residential?v=1.1&id=8817
+  subject: Austrian Social Science Data Archive (AUSSDA)
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_CSDA?v=6.0.0&id=20738
   scheme: CESSDA
-  subject: 'Mailing address: Residential'
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfAddress_Nonresidential?v=1.1&id=8814
+  subject: Czech Social Science Data Archive (ČSDA)
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_DNA?v=6.0.0&id=20731
   scheme: CESSDA
-  subject: 'Mailing address: Nonresidential'
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfAddress_Visiting?v=1.1&id=8818
+  subject: Danish National Archives (DNA)
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_DANS?v=6.0.0&id=20732
   scheme: CESSDA
-  subject: Visiting address
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfAddress_Residential?v=1.1&id=8816
+  subject: DANS-KNAW
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_DASSI?v=6.0.0&id=20739
   scheme: CESSDA
-  subject: 'Visiting address: Residential'
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfAddress_Nonresidential?v=1.1&id=8815
+  subject: DASSI - Data Archive for Social Sciences in Italy
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_FORS?v=6.0.0&id=20737
   scheme: CESSDA
-  subject: 'Visiting address: Nonresidential'
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfAddress_Other?v=1.1&id=8813
+  subject: FORS - Swiss Centre of Expertise in the Social Sciences
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_FSD?v=6.0.0&id=20733
   scheme: CESSDA
-  subject: Other
-- id: https://vocabularies.cessda.eu/vocabulary/ResponseUnit_Self?v=1.0&id=3238
+  subject: Finnish Social Science Data Archive (FSD)
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_GESIS?v=6.0.0&id=20725
   scheme: CESSDA
-  subject: Self
-- id: https://vocabularies.cessda.eu/vocabulary/ResponseUnit_Informant?v=1.0&id=3239
+  subject: GESIS - Leibniz Institute for the Social Sciences
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_APIS?v=6.0.0&id=20727
   scheme: CESSDA
-  subject: Informant
-- id: https://vocabularies.cessda.eu/vocabulary/ResponseUnit_Proxy?v=1.0&id=3240
+  subject: Portuguese Archive of Social Information (APIS)
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_ProgedoCDSP?v=6.0.0&id=20729
   scheme: CESSDA
-  subject: Proxy
-- id: https://vocabularies.cessda.eu/vocabulary/ResponseUnit_Interviewer?v=1.0&id=3241
+  subject: 'PROGEDO: Center for Socio-Political Data (CDSP)'
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_ProgedoCNRS?v=6.0.0&id=20728
   scheme: CESSDA
-  subject: Interviewer
-- id: https://vocabularies.cessda.eu/vocabulary/ResponseUnit_Other?v=1.0&id=3242
+  subject: 'PROGEDO: CNRS'
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_Progedo?v=6.0.0&id=20730
   scheme: CESSDA
-  subject: Other
-- id: https://vocabularies.cessda.eu/vocabulary/LanguageProficiency_Native?v=1.0&id=3185
+  subject: PROGEDO
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_Sikt?v=6.0.0&id=20722
   scheme: CESSDA
-  subject: Native
-- id: https://vocabularies.cessda.eu/vocabulary/LanguageProficiency_Fluent?v=1.0&id=3187
+  subject: Sikt - Norwegian Agency for Shared Services in Education and Research
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_SASD?v=6.0.0&id=20735
   scheme: CESSDA
-  subject: 'Native: Fluent'
-- id: https://vocabularies.cessda.eu/vocabulary/LanguageProficiency_Good?v=1.0&id=3188
+  subject: Slovak Archive of Social Data (SASD)
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_ADP?v=6.0.0&id=20720
   scheme: CESSDA
-  subject: 'Native: Good'
-- id: https://vocabularies.cessda.eu/vocabulary/LanguageProficiency_Basic?v=1.0&id=3189
+  subject: Slovenian Social Science Data Archives (ADP)
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_SODHA?v=6.0.0&id=20736
   scheme: CESSDA
-  subject: 'Native: Basic'
-- id: https://vocabularies.cessda.eu/vocabulary/LanguageProficiency_NonNative?v=1.0&id=3190
+  subject: Social Sciences and Digital Humanities Archive (SODHA)
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_SoDaNet?v=6.0.0&id=20721
   scheme: CESSDA
-  subject: Non-native
-- id: https://vocabularies.cessda.eu/vocabulary/LanguageProficiency_Fluent?v=1.0&id=3191
+  subject: SoDaNet - Greek Research Infrastructure for Social Science
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_SND?v=6.0.0&id=20726
   scheme: CESSDA
-  subject: 'Non-native: Fluent'
-- id: https://vocabularies.cessda.eu/vocabulary/LanguageProficiency_Good?v=1.0&id=3192
+  subject: Swedish National Data Service (SND)
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_UKDS?v=6.0.0&id=20734
   scheme: CESSDA
-  subject: 'Non-native: Good'
-- id: https://vocabularies.cessda.eu/vocabulary/LanguageProficiency_Basic?v=1.0&id=3193
+  subject: UK Data Service
+- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_UniData?v=6.0.0&id=20724
   scheme: CESSDA
-  subject: 'Non-native: Basic'
-- id: https://vocabularies.cessda.eu/vocabulary/LanguageProficiency_NativeStatusUnspecified?v=1.0&id=3194
-  scheme: CESSDA
-  subject: Unspecified native status
-- id: https://vocabularies.cessda.eu/vocabulary/LanguageProficiency_Fluent?v=1.0&id=3195
-  scheme: CESSDA
-  subject: 'Unspecified native status: Fluent'
-- id: https://vocabularies.cessda.eu/vocabulary/LanguageProficiency_Good?v=1.0&id=3196
-  scheme: CESSDA
-  subject: 'Unspecified native status: Good'
-- id: https://vocabularies.cessda.eu/vocabulary/LanguageProficiency_Basic?v=1.0&id=3197
-  scheme: CESSDA
-  subject: 'Unspecified native status: Basic'
-- id: https://vocabularies.cessda.eu/vocabulary/LanguageProficiency_Other?v=1.0&id=3198
-  scheme: CESSDA
-  subject: Other
+  subject: UniData - Bicocca Data Archive
 - id: https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes_ARK?v=1.0&id=8987
   scheme: CESSDA
   subject: ARK
@@ -85,213 +70,6 @@
 - id: https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes_URN?v=1.0&id=8989
   scheme: CESSDA
   subject: URN
-- id: https://vocabularies.cessda.eu/vocabulary/DateType_DateTime?v=1.1&id=3174
-  scheme: CESSDA
-  subject: DateTime
-- id: https://vocabularies.cessda.eu/vocabulary/DateType_Time?v=1.1&id=3175
-  scheme: CESSDA
-  subject: Time
-- id: https://vocabularies.cessda.eu/vocabulary/DateType_Date?v=1.1&id=3176
-  scheme: CESSDA
-  subject: Date
-- id: https://vocabularies.cessda.eu/vocabulary/DateType_GYearMonth?v=1.1&id=3177
-  scheme: CESSDA
-  subject: YearMonth
-- id: https://vocabularies.cessda.eu/vocabulary/DateType_GYear?v=1.1&id=3178
-  scheme: CESSDA
-  subject: Year
-- id: https://vocabularies.cessda.eu/vocabulary/DateType_GMonthDay?v=1.1&id=3179
-  scheme: CESSDA
-  subject: MonthDay
-- id: https://vocabularies.cessda.eu/vocabulary/DateType_GDay?v=1.1&id=3180
-  scheme: CESSDA
-  subject: Day
-- id: https://vocabularies.cessda.eu/vocabulary/DateType_GMonth?v=1.1&id=3181
-  scheme: CESSDA
-  subject: Month
-- id: https://vocabularies.cessda.eu/vocabulary/DateType_Duration?v=1.1&id=3182
-  scheme: CESSDA
-  subject: Duration
-- id: https://vocabularies.cessda.eu/vocabulary/DateType_Timespan?v=1.1&id=3183
-  scheme: CESSDA
-  subject: Timespan
-- id: https://vocabularies.cessda.eu/vocabulary/DateType_Other?v=1.1&id=3184
-  scheme: CESSDA
-  subject: Other
-- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_AUSSDA?v=5.0&id=15650
-  scheme: CESSDA
-  subject: Austrian Social Science Data Archive (AUSSDA)
-- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_CSDA?v=5.0&id=15641
-  scheme: CESSDA
-  subject: Czech Social Science Data Archive (ČSDA)
-- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_DNA?v=5.0&id=15659
-  scheme: CESSDA
-  subject: Danish National Archives (DNA)
-- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_DANS?v=5.0&id=15653
-  scheme: CESSDA
-  subject: DANS-KNAW
-- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_FORS?v=5.0&id=15655
-  scheme: CESSDA
-  subject: FORS - Swiss Centre of Expertise in the Social Sciences
-- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_FSD?v=5.0&id=15651
-  scheme: CESSDA
-  subject: Finnish Social Science Data Archive (FSD)
-- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_GESIS?v=5.0&id=15658
-  scheme: CESSDA
-  subject: GESIS - Leibniz Institute for the Social Sciences
-- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_APIS?v=5.0&id=15656
-  scheme: CESSDA
-  subject: Portuguese Archive of Social Information (APIS)
-- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_ProgedoCDSP?v=5.0&id=15647
-  scheme: CESSDA
-  subject: 'PROGEDO: Center for Socio-Political Data (CDSP)'
-- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_ProgedoCNRS?v=5.0&id=15643
-  scheme: CESSDA
-  subject: 'PROGEDO: CNRS'
-- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_Progedo?v=5.0&id=15654
-  scheme: CESSDA
-  subject: PROGEDO
-- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_Sikt?v=5.0&id=15642
-  scheme: CESSDA
-  subject: Sikt - Norwegian Agency for Shared Services in Education and Research
-- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_SASD?v=5.0&id=15644
-  scheme: CESSDA
-  subject: Slovak Archive of Social Data (SASD)
-- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_ADP?v=5.0&id=15646
-  scheme: CESSDA
-  subject: Slovenian Social Science Data Archives (ADP)
-- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_SODHA?v=5.0&id=15657
-  scheme: CESSDA
-  subject: Social Sciences and Digital Humanities Archive (SODHA)
-- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_SoDaNet?v=5.0&id=15649
-  scheme: CESSDA
-  subject: SoDaNet - Greek Research Infrastructure for Social Science
-- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_SND?v=5.0&id=15648
-  scheme: CESSDA
-  subject: Swedish National Data Service (SND)
-- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_UKDS?v=5.0&id=15652
-  scheme: CESSDA
-  subject: UK Data Service
-- id: https://vocabularies.cessda.eu/vocabulary/CdcPublisherNames_UniData?v=5.0&id=15645
-  scheme: CESSDA
-  subject: UniData - Bicocca Data Archive
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_StudyProposal?v=1.0&id=3199
-  scheme: CESSDA
-  subject: Study proposal
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_Funding?v=1.0&id=3200
-  scheme: CESSDA
-  subject: Funding
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_StudyDesign?v=1.0&id=3201
-  scheme: CESSDA
-  subject: Study design
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_InstrumentDesign?v=1.0&id=3202
-  scheme: CESSDA
-  subject: Instrument design
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_QuestionnaireTranslation?v=1.0&id=3203
-  scheme: CESSDA
-  subject: Questionnaire translation
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_QuestionnaireAdaptation?v=1.0&id=3204
-  scheme: CESSDA
-  subject: Questionnaire adaptation
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_InterviewerTraining?v=1.0&id=3205
-  scheme: CESSDA
-  subject: Interviewer training
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_EthicsReview?v=1.0&id=3206
-  scheme: CESSDA
-  subject: Ethics review
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_LegalReview?v=1.0&id=3207
-  scheme: CESSDA
-  subject: Legal review
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_Sampling?v=1.0&id=3208
-  scheme: CESSDA
-  subject: Sampling
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_InstrumentPreTesting?v=1.0&id=3209
-  scheme: CESSDA
-  subject: Instrument pre-testing
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_PilotStudy?v=1.0&id=3210
-  scheme: CESSDA
-  subject: Pilot study
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_DataCollection?v=1.0&id=3211
-  scheme: CESSDA
-  subject: Data collection
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_DataCollectionReports?v=1.0&id=3212
-  scheme: CESSDA
-  subject: Data collection reports
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_DataProcessing?v=1.0&id=3213
-  scheme: CESSDA
-  subject: Data processing
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_Coding?v=1.0&id=3214
-  scheme: CESSDA
-  subject: 'Data processing: Coding'
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_Classification?v=1.0&id=3215
-  scheme: CESSDA
-  subject: 'Data processing: Classification'
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_InterviewTranscriptions?v=1.0&id=3216
-  scheme: CESSDA
-  subject: 'Data processing: Transcriptions of interviews'
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_Weighting?v=1.0&id=3217
-  scheme: CESSDA
-  subject: 'Data processing: Weighting'
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_Aggregation?v=1.0&id=3218
-  scheme: CESSDA
-  subject: 'Data processing: Aggregation'
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_CompositeMeasures?v=1.0&id=3219
-  scheme: CESSDA
-  subject: 'Data processing: Composite measures'
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_Derivation?v=1.0&id=3220
-  scheme: CESSDA
-  subject: 'Data processing: Derivation'
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_DataQualityChecks?v=1.0&id=3221
-  scheme: CESSDA
-  subject: 'Data processing: Quality checks'
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_DataIntegration?v=1.0&id=3222
-  scheme: CESSDA
-  subject: 'Data processing: Data integration'
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_DisclosureLimitation?v=1.0&id=3223
-  scheme: CESSDA
-  subject: 'Data processing: Disclosure limitation'
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_Imputation?v=1.0&id=3224
-  scheme: CESSDA
-  subject: 'Data processing: Imputation'
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_MetadataProduction?v=1.0&id=3225
-  scheme: CESSDA
-  subject: Metadata production
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_MetadataEditing?v=1.0&id=3226
-  scheme: CESSDA
-  subject: Metadata editing
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_MetadataTranslation?v=1.0&id=3227
-  scheme: CESSDA
-  subject: Metadata translation
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_FinalReport?v=1.0&id=3228
-  scheme: CESSDA
-  subject: Final report
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_Evaluation?v=1.0&id=3229
-  scheme: CESSDA
-  subject: Evaluation
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_OriginalRelease?v=1.0&id=3230
-  scheme: CESSDA
-  subject: Original release
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_Deposit?v=1.0&id=3231
-  scheme: CESSDA
-  subject: Deposit
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_PreservationPackageProduction?v=1.0&id=3232
-  scheme: CESSDA
-  subject: Preservation package production
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_DisseminationPackageProduction?v=1.0&id=3233
-  scheme: CESSDA
-  subject: Dissemination package production
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_DisseminationPackageRelease?v=1.0&id=3234
-  scheme: CESSDA
-  subject: Dissemination package release
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_DataAnalysisReports?v=1.0&id=3235
-  scheme: CESSDA
-  subject: Data analysis reports
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_NewVersionRelease?v=1.0&id=3236
-  scheme: CESSDA
-  subject: New version release
-- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_Other?v=1.0&id=3237
-  scheme: CESSDA
-  subject: Other
 - id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_AF?v=1.0&id=10494
   scheme: CESSDA
   subject: Afghanistan
@@ -1039,6 +817,378 @@
 - id: https://vocabularies.cessda.eu/vocabulary/CountryNamesAndCodes_AX?v=1.0&id=10742
   scheme: CESSDA
   subject: Åland Islands
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Demography?v=4.2.2&id=18718
+  scheme: CESSDA
+  subject: DEMOGRAPHY (POPULATION, VITAL STATISTICS, AND CENSUSES)
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Censuses?v=4.2.2&id=18668
+  scheme: CESSDA
+  subject: Censuses
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Migration?v=4.2.2&id=18688
+  scheme: CESSDA
+  subject: Migration
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_MorbidityAndMortality?v=4.2.2&id=18728
+  scheme: CESSDA
+  subject: Morbidity and mortality
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Economics?v=4.2.2&id=18746
+  scheme: CESSDA
+  subject: ECONOMICS
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_ConsumptionAndConsumerBehaviour?v=4.2.2&id=18673
+  scheme: CESSDA
+  subject: Consumption and consumer behaviour
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_EconomicConditionsAndIndicators?v=4.2.2&id=18684
+  scheme: CESSDA
+  subject: Economic conditions and indicators
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_EconomicPolicyPublicExpenditureAndRevenue?v=4.2.2&id=18748
+  scheme: CESSDA
+  subject: Economic policy,  public expenditure and revenue
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_EconomicSystemsAndDevelopment?v=4.2.2&id=18756
+  scheme: CESSDA
+  subject: Economic systems and development
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_IncomePropertyAndInvestmentSaving?v=4.2.2&id=18716
+  scheme: CESSDA
+  subject: Income, property and investment/saving
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Education?v=4.2.2&id=18749
+  scheme: CESSDA
+  subject: EDUCATION
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_CompulsoryAndPreschoolEducation?v=4.2.2&id=18753
+  scheme: CESSDA
+  subject: Compulsory and pre-school education
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_EducationalPolicy?v=4.2.2&id=18712
+  scheme: CESSDA
+  subject: Educational policy
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_HigherAndFurtherEducation?v=4.2.2&id=18717
+  scheme: CESSDA
+  subject: Higher and further education
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_LifelongContinuingEducation?v=4.2.2&id=18719
+  scheme: CESSDA
+  subject: Life-long/continuing education
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_VocationalEducationAndTraining?v=4.2.2&id=18669
+  scheme: CESSDA
+  subject: Vocational education and training
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Health?v=4.2.2&id=18686
+  scheme: CESSDA
+  subject: HEALTH
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_DietAndNutrition?v=4.2.2&id=18743
+  scheme: CESSDA
+  subject: Diet and nutrition
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_DrugAbuseAlcoholAndSmoking?v=4.2.2&id=18740
+  scheme: CESSDA
+  subject: Drug abuse, alcohol and smoking
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_GeneralHealthAndWellbeing?v=4.2.2&id=18694
+  scheme: CESSDA
+  subject: General health and well-being
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_HealthCareServicesAndPolicies?v=4.2.2&id=18734
+  scheme: CESSDA
+  subject: Health care services and policies
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_MedicationAndTreatment?v=4.2.2&id=18683
+  scheme: CESSDA
+  subject: Medication and treatment
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_OccupationalHealth?v=4.2.2&id=18736
+  scheme: CESSDA
+  subject: Occupational health
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_PhysicalFitnessAndExercise?v=4.2.2&id=18675
+  scheme: CESSDA
+  subject: Physical fitness and exercise
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_PublicHealth?v=4.2.2&id=18703
+  scheme: CESSDA
+  subject: Public health
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_ReproductiveHealth?v=4.2.2&id=18676
+  scheme: CESSDA
+  subject: Reproductive health
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_SignsAndSymptomsPathologicalConditions?v=4.2.2&id=18757
+  scheme: CESSDA
+  subject: Signs and symptoms; pathological conditions
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_SpecificDiseasesDisordersAndMedicalConditions?v=4.2.2&id=18713
+  scheme: CESSDA
+  subject: Specific diseases, disorders and medical conditions
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_WoundsAndInjuries?v=4.2.2&id=18733
+  scheme: CESSDA
+  subject: Wounds and injuries
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_History?v=4.2.2&id=18664
+  scheme: CESSDA
+  subject: HISTORY
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_HousingAndLandUse?v=4.2.2&id=18752
+  scheme: CESSDA
+  subject: HOUSING AND LAND USE
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Housing?v=4.2.2&id=18665
+  scheme: CESSDA
+  subject: Housing
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_LandUseAndPlanning?v=4.2.2&id=18730
+  scheme: CESSDA
+  subject: Land use and planning
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_LabourAndEmployment?v=4.2.2&id=18682
+  scheme: CESSDA
+  subject: LABOUR AND EMPLOYMENT
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_EmployeeTraining?v=4.2.2&id=18721
+  scheme: CESSDA
+  subject: Employee training
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Employment?v=4.2.2&id=18663
+  scheme: CESSDA
+  subject: Employment
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_LabourAndEmploymentPolicy?v=4.2.2&id=18687
+  scheme: CESSDA
+  subject: Labour and employment policy
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_LabourRelationsConflict?v=4.2.2&id=18710
+  scheme: CESSDA
+  subject: Labour relations/conflict
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Retirement?v=4.2.2&id=18692
+  scheme: CESSDA
+  subject: Retirement
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Unemployment?v=4.2.2&id=18672
+  scheme: CESSDA
+  subject: Unemployment
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_WorkingConditions?v=4.2.2&id=18751
+  scheme: CESSDA
+  subject: Working conditions
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_LawCrimeAndLegalSystems?v=4.2.2&id=18735
+  scheme: CESSDA
+  subject: LAW, CRIME AND LEGAL SYSTEMS
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_CrimeAndLawEnforcement?v=4.2.2&id=18704
+  scheme: CESSDA
+  subject: Crime and law enforcement
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_LegislationAndLegalSystems?v=4.2.2&id=18708
+  scheme: CESSDA
+  subject: Legislation and legal systems
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_MediaCommunicationAndLanguage?v=4.2.2&id=18706
+  scheme: CESSDA
+  subject: MEDIA, COMMUNICATION AND LANGUAGE
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_InformationSociety?v=4.2.2&id=18691
+  scheme: CESSDA
+  subject: Information society
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_LanguageAndLinguistics?v=4.2.2&id=18722
+  scheme: CESSDA
+  subject: Language and linguistics
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Media?v=4.2.2&id=18705
+  scheme: CESSDA
+  subject: Media
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_PublicRelations?v=4.2.2&id=18744
+  scheme: CESSDA
+  subject: Public relations
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_NaturalEnvironment?v=4.2.2&id=18670
+  scheme: CESSDA
+  subject: NATURAL ENVIRONMENT
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_EnergyAndNaturalResources?v=4.2.2&id=18737
+  scheme: CESSDA
+  subject: Energy and natural resources
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_EnvironmentAndConservation?v=4.2.2&id=18698
+  scheme: CESSDA
+  subject: Environment and conservation
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_NaturalLandscapes?v=4.2.2&id=18671
+  scheme: CESSDA
+  subject: Natural landscapes
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_PlantsAndAnimals?v=4.2.2&id=18747
+  scheme: CESSDA
+  subject: Plants and animals
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Politics?v=4.2.2&id=18723
+  scheme: CESSDA
+  subject: POLITICS
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_ConflictSecurityAndPeace?v=4.2.2&id=18709
+  scheme: CESSDA
+  subject: Conflict, security and peace
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Elections?v=4.2.2&id=18745
+  scheme: CESSDA
+  subject: Elections
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_GovernmentPoliticalSystemsAndOrganisations?v=4.2.2&id=18742
+  scheme: CESSDA
+  subject: Government, political systems and organisations
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_InternationalPoliticsAndOrganisations?v=4.2.2&id=18750
+  scheme: CESSDA
+  subject: International politics and organisations
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_PoliticalBehaviourAndAttitudes?v=4.2.2&id=18729
+  scheme: CESSDA
+  subject: Political behaviour and attitudes
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_PoliticalIdeology?v=4.2.2&id=18667
+  scheme: CESSDA
+  subject: Political ideology
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Psychology?v=4.2.2&id=18695
+  scheme: CESSDA
+  subject: PSYCHOLOGY
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_ScienceAndTechnology?v=4.2.2&id=18755
+  scheme: CESSDA
+  subject: SCIENCE AND TECHNOLOGY
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Biotechnology?v=4.2.2&id=18726
+  scheme: CESSDA
+  subject: Biotechnology
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_InformationTechnology?v=4.2.2&id=18707
+  scheme: CESSDA
+  subject: Information technology
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_SocialStratificationAndGroupings?v=4.2.2&id=18727
+  scheme: CESSDA
+  subject: SOCIAL STRATIFICATION AND GROUPINGS
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Children?v=4.2.2&id=18715
+  scheme: CESSDA
+  subject: Children
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Elderly?v=4.2.2&id=18738
+  scheme: CESSDA
+  subject: Elderly
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_ElitesAndLeadership?v=4.2.2&id=18711
+  scheme: CESSDA
+  subject: Elites and leadership
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_EqualityInequalityAndSocialExclusion?v=4.2.2&id=18731
+  scheme: CESSDA
+  subject: Equality, inequality and social exclusion
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_FamilyLifeAndMarriage?v=4.2.2&id=18690
+  scheme: CESSDA
+  subject: Family life and marriage
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_GenderAndGenderRoles?v=4.2.2&id=18689
+  scheme: CESSDA
+  subject: Gender and gender roles
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Minorities?v=4.2.2&id=18685
+  scheme: CESSDA
+  subject: Minorities
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_SocialAndOccupationalMobility?v=4.2.2&id=18693
+  scheme: CESSDA
+  subject: Social and occupational mobility
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Youth?v=4.2.2&id=18725
+  scheme: CESSDA
+  subject: Youth
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_SocialWelfarePolicyAndSystems?v=4.2.2&id=18696
+  scheme: CESSDA
+  subject: SOCIAL WELFARE POLICY AND SYSTEMS
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_SocialWelfarePolicy?v=4.2.2&id=18702
+  scheme: CESSDA
+  subject: Social welfare policy
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_SocialWelfareSystemsStructures?v=4.2.2&id=18679
+  scheme: CESSDA
+  subject: Social welfare systems/structures
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_SpecificSocialServicesUseAndAvailability?v=4.2.2&id=18741
+  scheme: CESSDA
+  subject: 'Specific social services: use and availability'
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_SocietyAndCulture?v=4.2.2&id=18732
+  scheme: CESSDA
+  subject: SOCIETY AND CULTURE
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_CommunityUrbanAndRuralLife?v=4.2.2&id=18678
+  scheme: CESSDA
+  subject: Community, urban and rural life
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_CulturalActivitiesAndParticipation?v=4.2.2&id=18677
+  scheme: CESSDA
+  subject: Cultural activities and participation
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_CulturalAndNationalIdentity?v=4.2.2&id=18701
+  scheme: CESSDA
+  subject: Cultural and national identity
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_LeisureTourismAndSport?v=4.2.2&id=18699
+  scheme: CESSDA
+  subject: Leisure, tourism and sport
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_ReligionAndValues?v=4.2.2&id=18674
+  scheme: CESSDA
+  subject: Religion and values
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_SocialBehaviourAndAttitudes?v=4.2.2&id=18680
+  scheme: CESSDA
+  subject: Social behaviour and attitudes
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_SocialChange?v=4.2.2&id=18754
+  scheme: CESSDA
+  subject: Social change
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_SocialConditionsAndIndicators?v=4.2.2&id=18666
+  scheme: CESSDA
+  subject: Social conditions and indicators
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_TimeUse?v=4.2.2&id=18697
+  scheme: CESSDA
+  subject: Time use
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_TradeIndustryAndMarkets?v=4.2.2&id=18739
+  scheme: CESSDA
+  subject: TRADE, INDUSTRY AND MARKETS
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_AgricultureAndRuralIndustry?v=4.2.2&id=18681
+  scheme: CESSDA
+  subject: Agriculture and rural industry
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_BusinessIndustrialManagementAndOrganisation?v=4.2.2&id=18720
+  scheme: CESSDA
+  subject: Business/industrial management and organisation
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_ForeignTrade?v=4.2.2&id=18724
+  scheme: CESSDA
+  subject: Foreign trade
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_TransportAndTravel?v=4.2.2&id=18700
+  scheme: CESSDA
+  subject: TRANSPORT AND TRAVEL
+- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Other?v=4.2.2&id=18714
+  scheme: CESSDA
+  subject: OTHER
+- id: https://vocabularies.cessda.eu/vocabulary/AggregationMethod_Sum?v=1.1.2&id=18763
+  scheme: CESSDA
+  subject: Sum
+- id: https://vocabularies.cessda.eu/vocabulary/AggregationMethod_ArithmeticMean?v=1.1.2&id=18758
+  scheme: CESSDA
+  subject: Arithmetic mean
+- id: https://vocabularies.cessda.eu/vocabulary/AggregationMethod_Count?v=1.1.2&id=18767
+  scheme: CESSDA
+  subject: Count
+- id: https://vocabularies.cessda.eu/vocabulary/AggregationMethod_Mode?v=1.1.2&id=18761
+  scheme: CESSDA
+  subject: Mode
+- id: https://vocabularies.cessda.eu/vocabulary/AggregationMethod_Median?v=1.1.2&id=18760
+  scheme: CESSDA
+  subject: Median
+- id: https://vocabularies.cessda.eu/vocabulary/AggregationMethod_Maximum?v=1.1.2&id=18768
+  scheme: CESSDA
+  subject: Maximum
+- id: https://vocabularies.cessda.eu/vocabulary/AggregationMethod_Minimum?v=1.1.2&id=18766
+  scheme: CESSDA
+  subject: Minimum
+- id: https://vocabularies.cessda.eu/vocabulary/AggregationMethod_Percent?v=1.1.2&id=18759
+  scheme: CESSDA
+  subject: Percent
+- id: https://vocabularies.cessda.eu/vocabulary/AggregationMethod_CumulativePercent?v=1.1.2&id=18764
+  scheme: CESSDA
+  subject: Cumulative percent
+- id: https://vocabularies.cessda.eu/vocabulary/AggregationMethod_PercentileRank?v=1.1.2&id=18762
+  scheme: CESSDA
+  subject: Percentile rank
+- id: https://vocabularies.cessda.eu/vocabulary/AggregationMethod_Other?v=1.1.2&id=18765
+  scheme: CESSDA
+  subject: Other
+- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_Individual?v=2.1.3&id=16462
+  scheme: CESSDA
+  subject: Individual
+- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_OrganizationOrInstitution?v=2.1.3&id=16477
+  scheme: CESSDA
+  subject: Organization/Institution
+- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_Family?v=2.1.3&id=16472
+  scheme: CESSDA
+  subject: Family
+- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_HouseholdFamily?v=2.1.3&id=16471
+  scheme: CESSDA
+  subject: 'Family: Household family'
+- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_Household?v=2.1.3&id=16478
+  scheme: CESSDA
+  subject: Household
+- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_HousingUnit?v=2.1.3&id=16464
+  scheme: CESSDA
+  subject: Housing unit
+- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_EventOrProcessOrActivity?v=2.1.3&id=16467
+  scheme: CESSDA
+  subject: Event/Process/Activity
+- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_GeographicUnit?v=2.1.3&id=16479
+  scheme: CESSDA
+  subject: Geographic unit
+- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_PoliticalAdministrativeArea?v=2.1.3&id=16470
+  scheme: CESSDA
+  subject: Political-administrative area
+- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_TimeUnit?v=2.1.3&id=16466
+  scheme: CESSDA
+  subject: Time unit
+- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_MediaUnit?v=2.1.3&id=16476
+  scheme: CESSDA
+  subject: Media unit
+- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_Sound?v=2.1.3&id=16465
+  scheme: CESSDA
+  subject: 'Media unit: Sound'
+- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_StillImage?v=2.1.3&id=16475
+  scheme: CESSDA
+  subject: 'Media unit: Still image'
+- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_Text?v=2.1.3&id=16469
+  scheme: CESSDA
+  subject: 'Media unit: Text'
+- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_Video?v=2.1.3&id=16463
+  scheme: CESSDA
+  subject: 'Media unit: Video'
+- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_Group?v=2.1.3&id=16474
+  scheme: CESSDA
+  subject: Group
+- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_Object?v=2.1.3&id=16473
+  scheme: CESSDA
+  subject: Object
+- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_Other?v=2.1.3&id=16468
+  scheme: CESSDA
+  subject: Other
 - id: https://vocabularies.cessda.eu/vocabulary/CharacterSet_ASCII?v=1.0&id=4494
   scheme: CESSDA
   subject: ASCII
@@ -1129,334 +1279,802 @@
 - id: https://vocabularies.cessda.eu/vocabulary/CharacterSet_Other?v=1.0&id=4523
   scheme: CESSDA
   subject: Other
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_ProjectOrStudyDesign?v=1.0&id=5570
+- id: https://vocabularies.cessda.eu/vocabulary/CommonalityType_Identical?v=1.0.2&id=18821
+  scheme: CESSDA
+  subject: Identical
+- id: https://vocabularies.cessda.eu/vocabulary/CommonalityType_Some?v=1.0.2&id=18822
+  scheme: CESSDA
+  subject: Some
+- id: https://vocabularies.cessda.eu/vocabulary/CommonalityType_None?v=1.0.2&id=18823
+  scheme: CESSDA
+  subject: None
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_ProjectOrStudyDesign?v=1.0.2&id=19968
   scheme: CESSDA
   subject: Project/Study design
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_Conceptualization?v=1.0&id=5571
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_Conceptualization?v=1.0.2&id=19969
   scheme: CESSDA
   subject: 'Project/Study design: Conceptualization'
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_InstrumentDesign?v=1.0&id=5572
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_InstrumentDesign?v=1.0.2&id=20012
   scheme: CESSDA
   subject: 'Project/Study design: Instrument design'
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_MethodologyDevelopment?v=1.0&id=5573
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_MethodologyDevelopment?v=1.0.2&id=19994
   scheme: CESSDA
   subject: 'Project/Study design: Methodology development'
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_WeightsDesign?v=1.0&id=5575
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_WeightsDesign?v=1.0.2&id=20011
   scheme: CESSDA
   subject: 'Project/Study design: Weights design'
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_StandardsDevelopment?v=1.0&id=5576
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_StandardsDevelopment?v=1.0.2&id=19984
   scheme: CESSDA
   subject: 'Project/Study design: Standards development'
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_DataModeling?v=1.0&id=5577
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_DataModeling?v=1.0.2&id=19998
   scheme: CESSDA
   subject: 'Project/Study design: Data modeling'
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_ProjectOrStudyDesignSamplingDesign?v=1.0&id=5574
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_ProjectOrStudyDesignSamplingDesign?v=1.0.2&id=19982
   scheme: CESSDA
   subject: 'Project/Study design: Sampling design'
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_DataManagement?v=1.0&id=5578
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_DataManagement?v=1.0.2&id=19973
   scheme: CESSDA
   subject: Data management
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_EthicsReview?v=1.0&id=5579
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_EthicsReview?v=1.0.2&id=19991
   scheme: CESSDA
   subject: Ethics review
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_DataCollection?v=1.0&id=5580
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_DataCollection?v=1.0.2&id=20004
   scheme: CESSDA
   subject: Data collection
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_SampleSelection?v=1.0&id=5581
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_SampleSelection?v=1.0.2&id=19999
   scheme: CESSDA
   subject: Sample selection
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_DataEntry?v=1.0&id=5582
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_DataEntry?v=1.0.2&id=19987
   scheme: CESSDA
   subject: Data entry
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_DataProcessing?v=1.0&id=5583
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_DataProcessing?v=1.0.2&id=20008
   scheme: CESSDA
   subject: Data processing
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_DisclosureControl?v=1.0&id=5584
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_DisclosureControl?v=1.0.2&id=19971
   scheme: CESSDA
   subject: 'Data processing: Disclosure control'
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_DataAggregation?v=1.0&id=5585
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_DataAggregation?v=1.0.2&id=19992
   scheme: CESSDA
   subject: 'Data processing: Data aggregation'
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_DataIntegration?v=1.0&id=5586
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_DataIntegration?v=1.0.2&id=19972
   scheme: CESSDA
   subject: 'Data processing: Data integration'
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_DataValidation?v=1.0&id=5587
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_DataValidation?v=1.0.2&id=20009
   scheme: CESSDA
   subject: 'Data processing: Data validation'
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_DataAcquisition?v=1.0&id=5588
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_DataAcquisition?v=1.0.2&id=19997
   scheme: CESSDA
   subject: Data acquisition
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_MetadataProduction?v=1.0&id=5589
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_MetadataProduction?v=1.0.2&id=19966
   scheme: CESSDA
   subject: Metadata production
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_DataDistribution?v=1.0&id=5590
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_DataDistribution?v=1.0.2&id=19983
   scheme: CESSDA
   subject: Data distribution
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_DataHosting?v=1.0&id=5591
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_DataHosting?v=1.0.2&id=19995
   scheme: CESSDA
   subject: Data hosting
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_LongTermPreservationOrArchiving?v=1.0&id=5592
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_LongTermPreservationOrArchiving?v=1.0.2&id=20010
   scheme: CESSDA
   subject: Long-term preservation/archiving
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_Consulting?v=1.0&id=5593
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_Consulting?v=1.0.2&id=20005
   scheme: CESSDA
   subject: Consulting
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_Contact?v=1.0&id=5594
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_Contact?v=1.0.2&id=20001
   scheme: CESSDA
   subject: Contact
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_DataAnalysis?v=1.0&id=5595
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_DataAnalysis?v=1.0.2&id=19986
   scheme: CESSDA
   subject: Data analysis
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_Editing?v=1.0&id=5596
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_Editing?v=1.0.2&id=20015
   scheme: CESSDA
   subject: Editing
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_EquipmentDevelopment?v=1.0&id=5615
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_EquipmentDevelopment?v=1.0.2&id=19979
   scheme: CESSDA
   subject: Equipment development
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_Evaluation?v=1.0&id=5597
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_Evaluation?v=1.0.2&id=19993
   scheme: CESSDA
   subject: Evaluation
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_FundingProvision?v=1.0&id=5598
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_FundingProvision?v=1.0.2&id=19980
   scheme: CESSDA
   subject: Funding provision
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_FundingOrSponsorshipAcquisition?v=1.0&id=5599
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_FundingOrSponsorshipAcquisition?v=1.0.2&id=20002
   scheme: CESSDA
   subject: Funding/sponsorship acquisition
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_Sponsorship?v=1.0&id=5600
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_Sponsorship?v=1.0.2&id=19974
   scheme: CESSDA
   subject: Sponsorship
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_GraphicDesign?v=1.0&id=5601
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_GraphicDesign?v=1.0.2&id=20003
   scheme: CESSDA
   subject: Graphic design
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_ProjectOperations?v=1.0&id=5602
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_ProjectOperations?v=1.0.2&id=20000
   scheme: CESSDA
   subject: Project operations
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_ProjectLeader?v=1.0&id=5603
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_ProjectLeader?v=1.0.2&id=19967
   scheme: CESSDA
   subject: 'Project operations: Project leader'
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_ProjectManager?v=1.0&id=5604
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_ProjectManager?v=1.0.2&id=19977
   scheme: CESSDA
   subject: 'Project operations: Project manager'
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_ProjectMember?v=1.0&id=5605
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_ProjectMember?v=1.0.2&id=19985
   scheme: CESSDA
   subject: 'Project operations: Project member'
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_Promotion?v=1.0&id=5606
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_Promotion?v=1.0.2&id=19981
   scheme: CESSDA
   subject: Promotion
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_RegistrationAuthority?v=1.0&id=5607
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_RegistrationAuthority?v=1.0.2&id=19996
   scheme: CESSDA
   subject: Registration authority
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_Researcher?v=1.0&id=5610
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_Researcher?v=1.0.2&id=20016
   scheme: CESSDA
   subject: Researcher
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_ResearchGroup?v=1.0&id=5611
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_ResearchGroup?v=1.0.2&id=19976
   scheme: CESSDA
   subject: Research group
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_RightsHolding?v=1.0&id=5612
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_RightsHolding?v=1.0.2&id=20013
   scheme: CESSDA
   subject: Rights holding
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_RightsManagement?v=1.0&id=5613
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_RightsManagement?v=1.0.2&id=19978
   scheme: CESSDA
   subject: Rights management
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_SoftwareDevelopment?v=1.0&id=5614
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_SoftwareDevelopment?v=1.0.2&id=20006
   scheme: CESSDA
   subject: Software development
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_Supervision?v=1.0&id=5616
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_Supervision?v=1.0.2&id=19989
   scheme: CESSDA
   subject: Supervision
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_Training?v=1.0&id=5617
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_Training?v=1.0.2&id=19975
   scheme: CESSDA
   subject: Training
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_Translation?v=1.0&id=5618
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_Translation?v=1.0.2&id=20014
   scheme: CESSDA
   subject: Translation
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_UserSupport?v=1.0&id=5619
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_UserSupport?v=1.0.2&id=19970
   scheme: CESSDA
   subject: User support
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_Visualization?v=1.0&id=5620
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_Visualization?v=1.0.2&id=19988
   scheme: CESSDA
   subject: Visualization
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_WebsiteDevelopment?v=1.0&id=5621
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_WebsiteDevelopment?v=1.0.2&id=20007
   scheme: CESSDA
   subject: Website development
-- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_Other?v=1.0&id=5622
+- id: https://vocabularies.cessda.eu/vocabulary/ContributorRole_Other?v=1.0.2&id=19990
   scheme: CESSDA
   subject: Other
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-12:00?v=1.0&id=4632
+- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_RegistersRecordsAccounts?v=1.0.2&id=17007
   scheme: CESSDA
-  subject: UTC- 12:00
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-11:00?v=1.0&id=4633
+  subject: Registers/Records/Accounts
+- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_Administrative?v=1.0.2&id=17008
   scheme: CESSDA
-  subject: UTC- 11:00
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-10:00?v=1.0&id=4634
+  subject: 'Registers/Records/Accounts: Administrative'
+- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_Historical?v=1.0.2&id=17012
   scheme: CESSDA
-  subject: UTC- 10:00
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-09:30?v=1.0&id=4635
+  subject: 'Registers/Records/Accounts: Historical'
+- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_Legal?v=1.0.2&id=17021
   scheme: CESSDA
-  subject: UTC- 09:30
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-09:00?v=1.0&id=4636
+  subject: 'Registers/Records/Accounts: Legal'
+- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_MedicalClinical?v=1.0.2&id=17023
   scheme: CESSDA
-  subject: UTC- 09:00
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-08:00?v=1.0&id=4637
+  subject: 'Registers/Records/Accounts: Medical/Clinical'
+- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_AcademicAptitude?v=1.0.2&id=17003
   scheme: CESSDA
-  subject: UTC- 08:00
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-07:00?v=1.0&id=4638
+  subject: 'Registers/Records/Accounts: Academic/Aptitude'
+- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_EconomicFinancial?v=1.0.2&id=17002
   scheme: CESSDA
-  subject: UTC- 07:00
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-06:00?v=1.0&id=4639
+  subject: 'Registers/Records/Accounts: Economic/Financial'
+- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_Personal?v=1.0.2&id=17009
   scheme: CESSDA
-  subject: UTC- 06:00
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-05:00?v=1.0&id=4640
+  subject: 'Registers/Records/Accounts: Personal'
+- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_VotingResults?v=1.0.2&id=17018
   scheme: CESSDA
-  subject: UTC- 05:00
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-04:30?v=1.0&id=4641
+  subject: 'Registers/Records/Accounts: Voting results'
+- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_EventsInteractions?v=1.0.2&id=17004
   scheme: CESSDA
-  subject: UTC- 04:30
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-04:00?v=1.0&id=4642
+  subject: Events/Interactions
+- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_Processes?v=1.0.2&id=17020
   scheme: CESSDA
-  subject: UTC- 04:00
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-03:30?v=1.0&id=4643
+  subject: Processes
+- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_Workflows?v=1.0.2&id=17016
   scheme: CESSDA
-  subject: UTC- 03:30
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-03:00?v=1.0&id=4644
+  subject: 'Processes: Workflow(s)'
+- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_Communications?v=1.0.2&id=17014
   scheme: CESSDA
-  subject: UTC- 03:00
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-02:00?v=1.0&id=4645
+  subject: Communications
+- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_Public?v=1.0.2&id=17005
   scheme: CESSDA
-  subject: UTC- 02:00
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-01:00?v=1.0&id=4646
+  subject: 'Communications: Public'
+- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_Interpersonal?v=1.0.2&id=17017
   scheme: CESSDA
-  subject: UTC- 01:00
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_00:00?v=1.0&id=4647
+  subject: 'Communications: Interpersonal'
+- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_ResearchData?v=1.0.2&id=17006
   scheme: CESSDA
-  subject: UTC
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+01:00?v=1.0&id=4648
+  subject: Research data
+- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_Published?v=1.0.2&id=17011
   scheme: CESSDA
-  subject: UTC + 01:00
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+02:00?v=1.0&id=4649
+  subject: 'Research data: Published'
+- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_Unpublished?v=1.0.2&id=17013
   scheme: CESSDA
-  subject: UTC + 02:00
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+03:00?v=1.0&id=4650
+  subject: 'Research data: Unpublished'
+- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_PopulationGroup?v=1.0.2&id=17010
   scheme: CESSDA
-  subject: UTC + 03:00
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+03:30?v=1.0&id=4651
+  subject: Population group
+- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_GeographicArea?v=1.0.2&id=17001
   scheme: CESSDA
-  subject: UTC + 03:30
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+04:00?v=1.0&id=4652
+  subject: Geographic area
+- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_PhysicalObjects?v=1.0.2&id=17022
   scheme: CESSDA
-  subject: UTC + 04:00
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+04:30?v=1.0&id=4653
+  subject: Physical objects
+- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_BiologicalSamples?v=1.0.2&id=17019
   scheme: CESSDA
-  subject: UTC + 04:30
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+05:00?v=1.0&id=4654
-  scheme: CESSDA
-  subject: UTC + 05:00
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+05:30?v=1.0&id=4655
-  scheme: CESSDA
-  subject: UTC + 05:30
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+05:45?v=1.0&id=4656
-  scheme: CESSDA
-  subject: UTC + 05:45
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+06:00?v=1.0&id=4657
-  scheme: CESSDA
-  subject: UTC + 06:00
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+06:30?v=1.0&id=4658
-  scheme: CESSDA
-  subject: UTC + 06:30
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+07:00?v=1.0&id=4659
-  scheme: CESSDA
-  subject: UTC + 07:00
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+08:00?v=1.0&id=4660
-  scheme: CESSDA
-  subject: UTC + 08:00
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+09:00?v=1.0&id=4661
-  scheme: CESSDA
-  subject: UTC + 09:00
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+09:30?v=1.0&id=4662
-  scheme: CESSDA
-  subject: UTC + 09:30
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+10:00?v=1.0&id=4663
-  scheme: CESSDA
-  subject: UTC + 10:00
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+10:30?v=1.0&id=4664
-  scheme: CESSDA
-  subject: UTC + 10:30
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+11:00?v=1.0&id=4665
-  scheme: CESSDA
-  subject: UTC + 11:00
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+11:30?v=1.0&id=4666
-  scheme: CESSDA
-  subject: UTC + 11:30
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+12:00?v=1.0&id=4667
-  scheme: CESSDA
-  subject: UTC + 12:00
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+12:45?v=1.0&id=4668
-  scheme: CESSDA
-  subject: UTC + 12:45
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+13:00?v=1.0&id=4669
-  scheme: CESSDA
-  subject: UTC + 13:00
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+14:00?v=1.0&id=4670
-  scheme: CESSDA
-  subject: UTC + 14:00
-- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_Other?v=1.0&id=4671
+  subject: Biological samples
+- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_Other?v=1.0.2&id=17015
   scheme: CESSDA
   subject: Other
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfConceptGroup_Administrative?v=1.0&id=3542
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_String?v=1.1.2&id=18842
   scheme: CESSDA
-  subject: Administrative
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfConceptGroup_Thematic?v=1.0&id=3543
+  subject: String
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_NormalizedString?v=1.1.2&id=18859
   scheme: CESSDA
-  subject: Thematic
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfConceptGroup_Other?v=1.0&id=3544
+  subject: Normalized string
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_Boolean?v=1.1.2&id=18857
+  scheme: CESSDA
+  subject: Boolean
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_Decimal?v=1.1.2&id=18855
+  scheme: CESSDA
+  subject: Decimal
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_Integer?v=1.1.2&id=18858
+  scheme: CESSDA
+  subject: Integer
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_PositiveInteger?v=1.1.2&id=18867
+  scheme: CESSDA
+  subject: Positive integer
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_NegativeInteger?v=1.1.2&id=18837
+  scheme: CESSDA
+  subject: Negative integer
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_NonNegativeInteger?v=1.1.2&id=18856
+  scheme: CESSDA
+  subject: Non-negative integer
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_NonPositiveInteger?v=1.1.2&id=18846
+  scheme: CESSDA
+  subject: Non-positive integer
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_Long?v=1.1.2&id=18850
+  scheme: CESSDA
+  subject: Long
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_Int?v=1.1.2&id=18838
+  scheme: CESSDA
+  subject: Int
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_Short?v=1.1.2&id=18862
+  scheme: CESSDA
+  subject: Short
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_Byte?v=1.1.2&id=18843
+  scheme: CESSDA
+  subject: Byte
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_UnsignedLong?v=1.1.2&id=18847
+  scheme: CESSDA
+  subject: Unsigned long
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_UnsignedInt?v=1.1.2&id=18848
+  scheme: CESSDA
+  subject: Unsigned int
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_UnsignedShort?v=1.1.2&id=18844
+  scheme: CESSDA
+  subject: Unsigned short
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_UnsignedByte?v=1.1.2&id=18863
+  scheme: CESSDA
+  subject: Unsigned byte
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_Float?v=1.1.2&id=18836
+  scheme: CESSDA
+  subject: Float
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_Double?v=1.1.2&id=18849
+  scheme: CESSDA
+  subject: Double
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_DateTime?v=1.1.2&id=18845
+  scheme: CESSDA
+  subject: DateTime
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_Time?v=1.1.2&id=18865
+  scheme: CESSDA
+  subject: Time
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_Date?v=1.1.2&id=18866
+  scheme: CESSDA
+  subject: Date
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_GYearMonth?v=1.1.2&id=18852
+  scheme: CESSDA
+  subject: YearMonth
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_GYear?v=1.1.2&id=18839
+  scheme: CESSDA
+  subject: Year
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_GMonthDay?v=1.1.2&id=18841
+  scheme: CESSDA
+  subject: MonthDay
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_GDay?v=1.1.2&id=18853
+  scheme: CESSDA
+  subject: Day
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_GMonth?v=1.1.2&id=18864
+  scheme: CESSDA
+  subject: Month
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_Duration?v=1.1.2&id=18851
+  scheme: CESSDA
+  subject: Duration
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_HexBinary?v=1.1.2&id=18840
+  scheme: CESSDA
+  subject: hexBinary
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_Base64Binary?v=1.1.2&id=18860
+  scheme: CESSDA
+  subject: base64Binary
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_AnyURI?v=1.1.2&id=18854
+  scheme: CESSDA
+  subject: anyURI
+- id: https://vocabularies.cessda.eu/vocabulary/DataType_Other?v=1.1.2&id=18861
   scheme: CESSDA
   subject: Other
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfTelephone_Fixed?v=1.0&id=3551
+- id: https://vocabularies.cessda.eu/vocabulary/DateType_DateTime?v=1.1.2&id=18966
   scheme: CESSDA
-  subject: Fixed telephone
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfTelephone_PersonalPrivate?v=1.0&id=3552
+  subject: DateTime
+- id: https://vocabularies.cessda.eu/vocabulary/DateType_Time?v=1.1.2&id=18967
   scheme: CESSDA
-  subject: 'Fixed telephone: Personal/Private'
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfTelephone_OrganizationBusiness?v=1.0&id=3553
+  subject: Time
+- id: https://vocabularies.cessda.eu/vocabulary/DateType_Date?v=1.1.2&id=18968
   scheme: CESSDA
-  subject: 'Fixed telephone: Organization/Business'
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfTelephone_Mobile?v=1.0&id=3554
+  subject: Date
+- id: https://vocabularies.cessda.eu/vocabulary/DateType_GYearMonth?v=1.1.2&id=18969
   scheme: CESSDA
-  subject: Mobile telephone
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfTelephone_PersonalPrivate?v=1.0&id=3555
+  subject: YearMonth
+- id: https://vocabularies.cessda.eu/vocabulary/DateType_GYear?v=1.1.2&id=18970
   scheme: CESSDA
-  subject: 'Mobile telephone: Personal/Private'
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfTelephone_OrganizationBusiness?v=1.0&id=3556
+  subject: Year
+- id: https://vocabularies.cessda.eu/vocabulary/DateType_GMonthDay?v=1.1.2&id=18964
   scheme: CESSDA
-  subject: 'Mobile telephone: Organization/Business'
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfTelephone_Fax?v=1.0&id=3557
+  subject: MonthDay
+- id: https://vocabularies.cessda.eu/vocabulary/DateType_GDay?v=1.1.2&id=18971
   scheme: CESSDA
-  subject: Fax
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfTelephone_PersonalPrivate?v=1.0&id=3558
+  subject: Day
+- id: https://vocabularies.cessda.eu/vocabulary/DateType_GMonth?v=1.1.2&id=18972
   scheme: CESSDA
-  subject: 'Fax: Personal/Private'
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfTelephone_OrganizationBusiness?v=1.0&id=3559
+  subject: Month
+- id: https://vocabularies.cessda.eu/vocabulary/DateType_Duration?v=1.1.2&id=18973
   scheme: CESSDA
-  subject: 'Fax: Organization/Business'
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfTelephone_Other?v=1.0&id=3560
+  subject: Duration
+- id: https://vocabularies.cessda.eu/vocabulary/DateType_Timespan?v=1.1.2&id=18974
+  scheme: CESSDA
+  subject: Timespan
+- id: https://vocabularies.cessda.eu/vocabulary/DateType_Other?v=1.1.2&id=18965
   scheme: CESSDA
   subject: Other
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfNote_Processing?v=1.1&id=8807
+- id: https://vocabularies.cessda.eu/vocabulary/GeneralDataFormat_Numeric?v=2.0.3&id=16652
   scheme: CESSDA
-  subject: Processing note
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfNote_Addendum?v=1.1&id=8811
+  subject: Numeric
+- id: https://vocabularies.cessda.eu/vocabulary/GeneralDataFormat_Text?v=2.0.3&id=16653
   scheme: CESSDA
-  subject: Addendum
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfNote_System?v=1.1&id=8809
+  subject: Text
+- id: https://vocabularies.cessda.eu/vocabulary/GeneralDataFormat_StillImage?v=2.0.3&id=16654
   scheme: CESSDA
-  subject: System note
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfNote_Observation?v=1.1&id=8810
+  subject: Still image
+- id: https://vocabularies.cessda.eu/vocabulary/GeneralDataFormat_Geospatial?v=2.0.3&id=16655
+  scheme: CESSDA
+  subject: Geospatial
+- id: https://vocabularies.cessda.eu/vocabulary/GeneralDataFormat_Audio?v=2.0.3&id=16656
+  scheme: CESSDA
+  subject: Audio
+- id: https://vocabularies.cessda.eu/vocabulary/GeneralDataFormat_Video?v=2.0.3&id=16657
+  scheme: CESSDA
+  subject: Video
+- id: https://vocabularies.cessda.eu/vocabulary/GeneralDataFormat_Software?v=2.0.3&id=16658
+  scheme: CESSDA
+  subject: Software
+- id: https://vocabularies.cessda.eu/vocabulary/GeneralDataFormat_InteractiveResource?v=2.0.3&id=16659
+  scheme: CESSDA
+  subject: Interactive resource
+- id: https://vocabularies.cessda.eu/vocabulary/GeneralDataFormat_ThreeD?v=2.0.3&id=16660
+  scheme: CESSDA
+  subject: 3D
+- id: https://vocabularies.cessda.eu/vocabulary/GeneralDataFormat_Other?v=2.0.3&id=16661
+  scheme: CESSDA
+  subject: Other
+- id: https://vocabularies.cessda.eu/vocabulary/LanguageProficiency_Native?v=1.0.2&id=19009
+  scheme: CESSDA
+  subject: Native
+- id: https://vocabularies.cessda.eu/vocabulary/LanguageProficiency_Fluent?v=1.0.2&id=19010
+  scheme: CESSDA
+  subject: 'Native: Fluent'
+- id: https://vocabularies.cessda.eu/vocabulary/LanguageProficiency_Good?v=1.0.2&id=19011
+  scheme: CESSDA
+  subject: 'Native: Good'
+- id: https://vocabularies.cessda.eu/vocabulary/LanguageProficiency_Basic?v=1.0.2&id=19012
+  scheme: CESSDA
+  subject: 'Native: Basic'
+- id: https://vocabularies.cessda.eu/vocabulary/LanguageProficiency_NonNative?v=1.0.2&id=19014
+  scheme: CESSDA
+  subject: Non-native
+- id: https://vocabularies.cessda.eu/vocabulary/LanguageProficiency_Fluent?v=1.0.2&id=19016
+  scheme: CESSDA
+  subject: 'Non-native: Fluent'
+- id: https://vocabularies.cessda.eu/vocabulary/LanguageProficiency_Good?v=1.0.2&id=19017
+  scheme: CESSDA
+  subject: 'Non-native: Good'
+- id: https://vocabularies.cessda.eu/vocabulary/LanguageProficiency_Basic?v=1.0.2&id=19008
+  scheme: CESSDA
+  subject: 'Non-native: Basic'
+- id: https://vocabularies.cessda.eu/vocabulary/LanguageProficiency_NativeStatusUnspecified?v=1.0.2&id=19020
+  scheme: CESSDA
+  subject: Unspecified native status
+- id: https://vocabularies.cessda.eu/vocabulary/LanguageProficiency_Fluent?v=1.0.2&id=19015
+  scheme: CESSDA
+  subject: 'Unspecified native status: Fluent'
+- id: https://vocabularies.cessda.eu/vocabulary/LanguageProficiency_Good?v=1.0.2&id=19019
+  scheme: CESSDA
+  subject: 'Unspecified native status: Good'
+- id: https://vocabularies.cessda.eu/vocabulary/LanguageProficiency_Basic?v=1.0.2&id=19018
+  scheme: CESSDA
+  subject: 'Unspecified native status: Basic'
+- id: https://vocabularies.cessda.eu/vocabulary/LanguageProficiency_Other?v=1.0.2&id=19013
+  scheme: CESSDA
+  subject: Other
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_StudyProposal?v=1.0.2&id=19065
+  scheme: CESSDA
+  subject: Study proposal
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_Funding?v=1.0.2&id=19049
+  scheme: CESSDA
+  subject: Funding
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_StudyDesign?v=1.0.2&id=19034
+  scheme: CESSDA
+  subject: Study design
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_InstrumentDesign?v=1.0.2&id=19035
+  scheme: CESSDA
+  subject: Instrument design
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_QuestionnaireTranslation?v=1.0.2&id=19072
+  scheme: CESSDA
+  subject: Questionnaire translation
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_QuestionnaireAdaptation?v=1.0.2&id=19062
+  scheme: CESSDA
+  subject: Questionnaire adaptation
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_InterviewerTraining?v=1.0.2&id=19054
+  scheme: CESSDA
+  subject: Interviewer training
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_EthicsReview?v=1.0.2&id=19063
+  scheme: CESSDA
+  subject: Ethics review
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_LegalReview?v=1.0.2&id=19036
+  scheme: CESSDA
+  subject: Legal review
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_Sampling?v=1.0.2&id=19069
+  scheme: CESSDA
+  subject: Sampling
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_InstrumentPreTesting?v=1.0.2&id=19048
+  scheme: CESSDA
+  subject: Instrument pre-testing
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_PilotStudy?v=1.0.2&id=19046
+  scheme: CESSDA
+  subject: Pilot study
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_DataCollection?v=1.0.2&id=19047
+  scheme: CESSDA
+  subject: Data collection
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_DataCollectionReports?v=1.0.2&id=19037
+  scheme: CESSDA
+  subject: Data collection reports
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_DataProcessing?v=1.0.2&id=19051
+  scheme: CESSDA
+  subject: Data processing
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_Coding?v=1.0.2&id=19059
+  scheme: CESSDA
+  subject: 'Data processing: Coding'
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_Classification?v=1.0.2&id=19056
+  scheme: CESSDA
+  subject: 'Data processing: Classification'
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_InterviewTranscriptions?v=1.0.2&id=19050
+  scheme: CESSDA
+  subject: 'Data processing: Transcriptions of interviews'
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_Weighting?v=1.0.2&id=19055
+  scheme: CESSDA
+  subject: 'Data processing: Weighting'
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_Aggregation?v=1.0.2&id=19044
+  scheme: CESSDA
+  subject: 'Data processing: Aggregation'
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_CompositeMeasures?v=1.0.2&id=19060
+  scheme: CESSDA
+  subject: 'Data processing: Composite measures'
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_Derivation?v=1.0.2&id=19064
+  scheme: CESSDA
+  subject: 'Data processing: Derivation'
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_DataQualityChecks?v=1.0.2&id=19053
+  scheme: CESSDA
+  subject: 'Data processing: Quality checks'
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_DataIntegration?v=1.0.2&id=19042
+  scheme: CESSDA
+  subject: 'Data processing: Data integration'
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_DisclosureLimitation?v=1.0.2&id=19058
+  scheme: CESSDA
+  subject: 'Data processing: Disclosure limitation'
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_Imputation?v=1.0.2&id=19071
+  scheme: CESSDA
+  subject: 'Data processing: Imputation'
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_MetadataProduction?v=1.0.2&id=19039
+  scheme: CESSDA
+  subject: Metadata production
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_MetadataEditing?v=1.0.2&id=19038
+  scheme: CESSDA
+  subject: Metadata editing
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_MetadataTranslation?v=1.0.2&id=19043
+  scheme: CESSDA
+  subject: Metadata translation
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_FinalReport?v=1.0.2&id=19040
+  scheme: CESSDA
+  subject: Final report
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_Evaluation?v=1.0.2&id=19070
+  scheme: CESSDA
+  subject: Evaluation
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_OriginalRelease?v=1.0.2&id=19068
+  scheme: CESSDA
+  subject: Original release
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_Deposit?v=1.0.2&id=19045
+  scheme: CESSDA
+  subject: Deposit
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_PreservationPackageProduction?v=1.0.2&id=19041
+  scheme: CESSDA
+  subject: Preservation package production
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_DisseminationPackageProduction?v=1.0.2&id=19067
+  scheme: CESSDA
+  subject: Dissemination package production
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_DisseminationPackageRelease?v=1.0.2&id=19061
+  scheme: CESSDA
+  subject: Dissemination package release
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_DataAnalysisReports?v=1.0.2&id=19052
+  scheme: CESSDA
+  subject: Data analysis reports
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_NewVersionRelease?v=1.0.2&id=19057
+  scheme: CESSDA
+  subject: New version release
+- id: https://vocabularies.cessda.eu/vocabulary/LifecycleEventType_Other?v=1.0.2&id=19066
+  scheme: CESSDA
+  subject: Other
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Interview?v=4.0.3&id=19347
+  scheme: CESSDA
+  subject: Interview
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_FaceToFace?v=4.0.3&id=19346
+  scheme: CESSDA
+  subject: Face-to-face interview
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_CAPIorCAMI?v=4.0.3&id=19339
+  scheme: CESSDA
+  subject: 'Face-to-face interview: Computer-assisted (CAPI/CAMI)'
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_PAPI?v=4.0.3&id=19321
+  scheme: CESSDA
+  subject: 'Face-to-face interview: Paper-and-pencil (PAPI)'
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Telephone?v=4.0.3&id=19323
+  scheme: CESSDA
+  subject: Telephone interview
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_CATI?v=4.0.3&id=19314
+  scheme: CESSDA
+  subject: 'Telephone interview: Computer-assisted (CATI)'
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Email?v=4.0.3&id=19333
+  scheme: CESSDA
+  subject: E-mail interview
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_WebBased?v=4.0.3&id=19311
+  scheme: CESSDA
+  subject: Web-based interview
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_SelfAdministeredQuestionnaire?v=4.0.3&id=19334
+  scheme: CESSDA
+  subject: Self-administered questionnaire
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Email?v=4.0.3&id=19328
+  scheme: CESSDA
+  subject: 'Self-administered questionnaire: E-mail'
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Paper?v=4.0.3&id=19310
+  scheme: CESSDA
+  subject: 'Self-administered questionnaire: Paper'
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_SMSorMMS?v=4.0.3&id=19307
+  scheme: CESSDA
+  subject: 'Self-administered questionnaire: Messaging (SMS/MMS)'
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_CAWI?v=4.0.3&id=19306
+  scheme: CESSDA
+  subject: 'Self-administered questionnaire: Web-based (CAWI)'
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_CASI?v=4.0.3&id=19315
+  scheme: CESSDA
+  subject: 'Self-administered questionnaire: Computer-assisted (CASI)'
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_FocusGroup?v=4.0.3&id=19335
+  scheme: CESSDA
+  subject: Focus group
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_FaceToFace?v=4.0.3&id=19344
+  scheme: CESSDA
+  subject: Face-to-face focus group
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Telephone?v=4.0.3&id=19319
+  scheme: CESSDA
+  subject: Telephone focus group
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Online?v=4.0.3&id=19330
+  scheme: CESSDA
+  subject: Online focus group
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_SelfAdministeredWritingsAndDiaries?v=4.0.3&id=19301
+  scheme: CESSDA
+  subject: Self-administered writings and/or diaries
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Email?v=4.0.3&id=19350
+  scheme: CESSDA
+  subject: 'Self-administered writings and/or diaries: E-mail'
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Paper?v=4.0.3&id=19322
+  scheme: CESSDA
+  subject: 'Self-administered writings and/or diaries: Paper'
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_WebBased?v=4.0.3&id=19308
+  scheme: CESSDA
+  subject: 'Self-administered writings and/or diaries: Web-based'
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Observation?v=4.0.3&id=19317
   scheme: CESSDA
   subject: Observation
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfNote_Comment?v=1.1&id=8806
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Field?v=4.0.3&id=19341
   scheme: CESSDA
-  subject: Comment
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfNote_Other?v=1.1&id=8808
+  subject: Field observation
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Participant?v=4.0.3&id=19305
+  scheme: CESSDA
+  subject: Participant field observation
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Nonparticipant?v=4.0.3&id=19327
+  scheme: CESSDA
+  subject: Non-participant field observation
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Laboratory?v=4.0.3&id=19348
+  scheme: CESSDA
+  subject: Laboratory observation
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Participant?v=4.0.3&id=19324
+  scheme: CESSDA
+  subject: Participant laboratory observation
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Nonparticipant?v=4.0.3&id=19313
+  scheme: CESSDA
+  subject: Non-participant laboratory observation
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_ComputerBased?v=4.0.3&id=19332
+  scheme: CESSDA
+  subject: Computer-based observation
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Experiment?v=4.0.3&id=19342
+  scheme: CESSDA
+  subject: Experiment
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Laboratory?v=4.0.3&id=19349
+  scheme: CESSDA
+  subject: Laboratory experiment
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_FieldIntervention?v=4.0.3&id=19312
+  scheme: CESSDA
+  subject: Field/Intervention experiment
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_WebBased?v=4.0.3&id=19329
+  scheme: CESSDA
+  subject: Web-based experiment
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Recording?v=4.0.3&id=19338
+  scheme: CESSDA
+  subject: Recording
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_RemoteSensing?v=4.0.3&id=19318
+  scheme: CESSDA
+  subject: 'Recording: Remote sensing'
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_AutomatedDataExtraction?v=4.0.3&id=19316
+  scheme: CESSDA
+  subject: Automated data extraction
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_ApiQuery?v=4.0.3&id=19300
+  scheme: CESSDA
+  subject: 'Automated data extraction: API query'
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_DatabaseQuery?v=4.0.3&id=19309
+  scheme: CESSDA
+  subject: 'Automated data extraction: Database query'
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_WebScraping?v=4.0.3&id=19326
+  scheme: CESSDA
+  subject: 'Automated data extraction: Web scraping'
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_ContentCoding?v=4.0.3&id=19303
+  scheme: CESSDA
+  subject: Content coding
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Transcription?v=4.0.3&id=19343
+  scheme: CESSDA
+  subject: Transcription
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_CompilationSynthesis?v=4.0.3&id=19345
+  scheme: CESSDA
+  subject: Compilation/Synthesis
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Summary?v=4.0.3&id=19320
+  scheme: CESSDA
+  subject: Summary
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Aggregation?v=4.0.3&id=19337
+  scheme: CESSDA
+  subject: Aggregation
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Simulation?v=4.0.3&id=19336
+  scheme: CESSDA
+  subject: Simulation
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_MeasurementsAndTests?v=4.0.3&id=19331
+  scheme: CESSDA
+  subject: Measurements and tests
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Educational?v=4.0.3&id=19302
+  scheme: CESSDA
+  subject: Educational measurements and tests
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Physical?v=4.0.3&id=19304
+  scheme: CESSDA
+  subject: Physical measurements and tests
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Psychological?v=4.0.3&id=19340
+  scheme: CESSDA
+  subject: Psychological measurements and tests
+- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Other?v=4.0.3&id=19325
+  scheme: CESSDA
+  subject: Other
+- id: https://vocabularies.cessda.eu/vocabulary/NumericType_Integer?v=1.1&id=8221
+  scheme: CESSDA
+  subject: Integer
+- id: https://vocabularies.cessda.eu/vocabulary/NumericType_Int?v=1.1&id=8227
+  scheme: CESSDA
+  subject: Int
+- id: https://vocabularies.cessda.eu/vocabulary/NumericType_Long?v=1.1&id=8224
+  scheme: CESSDA
+  subject: Long
+- id: https://vocabularies.cessda.eu/vocabulary/NumericType_Short?v=1.1&id=8225
+  scheme: CESSDA
+  subject: Short
+- id: https://vocabularies.cessda.eu/vocabulary/NumericType_Decimal?v=1.1&id=8220
+  scheme: CESSDA
+  subject: Decimal
+- id: https://vocabularies.cessda.eu/vocabulary/NumericType_Float?v=1.1&id=8229
+  scheme: CESSDA
+  subject: Float
+- id: https://vocabularies.cessda.eu/vocabulary/NumericType_Double?v=1.1&id=8223
+  scheme: CESSDA
+  subject: Double
+- id: https://vocabularies.cessda.eu/vocabulary/NumericType_Count?v=1.1&id=8228
+  scheme: CESSDA
+  subject: Count
+- id: https://vocabularies.cessda.eu/vocabulary/NumericType_Incremental?v=1.1&id=8222
+  scheme: CESSDA
+  subject: Incremental
+- id: https://vocabularies.cessda.eu/vocabulary/NumericType_Other?v=1.1&id=8226
+  scheme: CESSDA
+  subject: Other
+- id: https://vocabularies.cessda.eu/vocabulary/ResponseUnit_Self?v=1.0.2&id=19112
+  scheme: CESSDA
+  subject: Self
+- id: https://vocabularies.cessda.eu/vocabulary/ResponseUnit_Informant?v=1.0.2&id=19113
+  scheme: CESSDA
+  subject: Informant
+- id: https://vocabularies.cessda.eu/vocabulary/ResponseUnit_Proxy?v=1.0.2&id=19114
+  scheme: CESSDA
+  subject: Proxy
+- id: https://vocabularies.cessda.eu/vocabulary/ResponseUnit_Interviewer?v=1.0.2&id=19115
+  scheme: CESSDA
+  subject: Interviewer
+- id: https://vocabularies.cessda.eu/vocabulary/ResponseUnit_Other?v=1.0.2&id=19116
+  scheme: CESSDA
+  subject: Other
+- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_TotalUniverseCompleteEnumeration?v=1.1.4&id=17557
+  scheme: CESSDA
+  subject: Total universe/Complete enumeration
+- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_Probability?v=1.1.4&id=17561
+  scheme: CESSDA
+  subject: Probability
+- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_SimpleRandom?v=1.1.4&id=17562
+  scheme: CESSDA
+  subject: 'Probability: Simple random'
+- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_SystematicRandom?v=1.1.4&id=17563
+  scheme: CESSDA
+  subject: 'Probability: Systematic random'
+- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_Stratified?v=1.1.4&id=17567
+  scheme: CESSDA
+  subject: 'Probability: Stratified'
+- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_Proportional?v=1.1.4&id=17568
+  scheme: CESSDA
+  subject: 'Probability: Stratified: Proportional'
+- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_Disproportional?v=1.1.4&id=17560
+  scheme: CESSDA
+  subject: 'Probability: Stratified: Disproportional'
+- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_Cluster?v=1.1.4&id=17573
+  scheme: CESSDA
+  subject: 'Probability: Cluster'
+- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_SimpleRandom?v=1.1.4&id=17571
+  scheme: CESSDA
+  subject: 'Probability: Cluster: Simple random'
+- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_StratifiedRandom?v=1.1.4&id=17570
+  scheme: CESSDA
+  subject: 'Probability: Cluster: Stratified random'
+- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_Multistage?v=1.1.4&id=17558
+  scheme: CESSDA
+  subject: 'Probability: Multistage'
+- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_Nonprobability?v=1.1.4&id=17572
+  scheme: CESSDA
+  subject: Non-probability
+- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_Availability?v=1.1.4&id=17559
+  scheme: CESSDA
+  subject: 'Non-probability: Availability'
+- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_Purposive?v=1.1.4&id=17564
+  scheme: CESSDA
+  subject: 'Non-probability: Purposive'
+- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_Quota?v=1.1.4&id=17565
+  scheme: CESSDA
+  subject: 'Non-probability: Quota'
+- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_RespondentAssisted?v=1.1.4&id=17566
+  scheme: CESSDA
+  subject: 'Non-probability: Respondent-assisted'
+- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_MixedProbabilityNonprobability?v=1.1.4&id=17556
+  scheme: CESSDA
+  subject: Mixed probability and non-probability
+- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_Other?v=1.1.4&id=17569
   scheme: CESSDA
   subject: Other
 - id: https://vocabularies.cessda.eu/vocabulary/SoftwarePackage_AcaStat?v=1.0&id=3487
@@ -1603,67 +2221,526 @@
 - id: https://vocabularies.cessda.eu/vocabulary/SoftwarePackage_Other?v=1.0&id=3534
   scheme: CESSDA
   subject: Other
-- id: https://vocabularies.cessda.eu/vocabulary/NumericType_Integer?v=1.1&id=8221
-  scheme: CESSDA
-  subject: Integer
-- id: https://vocabularies.cessda.eu/vocabulary/NumericType_Int?v=1.1&id=8227
-  scheme: CESSDA
-  subject: 'Int '
-- id: https://vocabularies.cessda.eu/vocabulary/NumericType_Long?v=1.1&id=8224
-  scheme: CESSDA
-  subject: Long
-- id: https://vocabularies.cessda.eu/vocabulary/NumericType_Short?v=1.1&id=8225
-  scheme: CESSDA
-  subject: Short
-- id: https://vocabularies.cessda.eu/vocabulary/NumericType_Decimal?v=1.1&id=8220
-  scheme: CESSDA
-  subject: Decimal
-- id: https://vocabularies.cessda.eu/vocabulary/NumericType_Float?v=1.1&id=8229
-  scheme: CESSDA
-  subject: Float
-- id: https://vocabularies.cessda.eu/vocabulary/NumericType_Double?v=1.1&id=8223
-  scheme: CESSDA
-  subject: Double
-- id: https://vocabularies.cessda.eu/vocabulary/NumericType_Count?v=1.1&id=8228
-  scheme: CESSDA
-  subject: Count
-- id: https://vocabularies.cessda.eu/vocabulary/NumericType_Incremental?v=1.1&id=8222
-  scheme: CESSDA
-  subject: Incremental
-- id: https://vocabularies.cessda.eu/vocabulary/NumericType_Other?v=1.1&id=8226
-  scheme: CESSDA
-  subject: Other
-- id: https://vocabularies.cessda.eu/vocabulary/AggregationMethod_Sum?v=1.1&id=8201
-  scheme: CESSDA
-  subject: Sum
-- id: https://vocabularies.cessda.eu/vocabulary/AggregationMethod_ArithmeticMean?v=1.1&id=8203
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_ArithmeticMean?v=2.1.2&id=17259
   scheme: CESSDA
   subject: Arithmetic mean
-- id: https://vocabularies.cessda.eu/vocabulary/AggregationMethod_Count?v=1.1&id=8206
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_GeometricMean?v=2.1.2&id=17281
   scheme: CESSDA
-  subject: Count
-- id: https://vocabularies.cessda.eu/vocabulary/AggregationMethod_Mode?v=1.1&id=8209
+  subject: Geometric mean
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_HarmonicMean?v=2.1.2&id=17275
+  scheme: CESSDA
+  subject: Harmonic mean
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_TrimmedMean?v=2.1.2&id=17253
+  scheme: CESSDA
+  subject: Trimmed mean
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_StandardErrorOfMean?v=2.1.2&id=17250
+  scheme: CESSDA
+  subject: Standard error of the mean
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_Mode?v=2.1.2&id=17285
   scheme: CESSDA
   subject: Mode
-- id: https://vocabularies.cessda.eu/vocabulary/AggregationMethod_Median?v=1.1&id=8208
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_Median?v=2.1.2&id=17255
   scheme: CESSDA
   subject: Median
-- id: https://vocabularies.cessda.eu/vocabulary/AggregationMethod_Maximum?v=1.1&id=8207
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_ValidCases?v=2.1.2&id=17271
   scheme: CESSDA
-  subject: Maximum
-- id: https://vocabularies.cessda.eu/vocabulary/AggregationMethod_Minimum?v=1.1&id=8205
+  subject: Valid cases
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_InvalidCases?v=2.1.2&id=17269
+  scheme: CESSDA
+  subject: Invalid cases
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_Minimum?v=2.1.2&id=17289
   scheme: CESSDA
   subject: Minimum
-- id: https://vocabularies.cessda.eu/vocabulary/AggregationMethod_Percent?v=1.1&id=8199
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_Maximum?v=2.1.2&id=17276
   scheme: CESSDA
-  subject: Percent
-- id: https://vocabularies.cessda.eu/vocabulary/AggregationMethod_CumulativePercent?v=1.1&id=8202
+  subject: Maximum
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_Range?v=2.1.2&id=17249
   scheme: CESSDA
-  subject: Cumulative percent
-- id: https://vocabularies.cessda.eu/vocabulary/AggregationMethod_PercentileRank?v=1.1&id=8200
+  subject: Range
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_Sum?v=2.1.2&id=17270
   scheme: CESSDA
-  subject: Percentile rank
-- id: https://vocabularies.cessda.eu/vocabulary/AggregationMethod_Other?v=1.1&id=8204
+  subject: Sum
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_Variance?v=2.1.2&id=17248
+  scheme: CESSDA
+  subject: Variance
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_StandardDeviation?v=2.1.2&id=17260
+  scheme: CESSDA
+  subject: Standard deviation
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_CoefficientOfVariation?v=2.1.2&id=17284
+  scheme: CESSDA
+  subject: Coefficient of variation
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_AverageAbsoluteDeviation?v=2.1.2&id=17267
+  scheme: CESSDA
+  subject: Average absolute deviation
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_MedianAbsoluteDeviation?v=2.1.2&id=17274
+  scheme: CESSDA
+  subject: Median absolute deviation
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_FirstQuartile?v=2.1.2&id=17272
+  scheme: CESSDA
+  subject: First quartile
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_SecondQuartile?v=2.1.2&id=17254
+  scheme: CESSDA
+  subject: Second quartile
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_ThirdQuartile?v=2.1.2&id=17279
+  scheme: CESSDA
+  subject: Third quartile
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_InterquartileRange?v=2.1.2&id=17256
+  scheme: CESSDA
+  subject: Interquartile range
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_FirstQuintile?v=2.1.2&id=17273
+  scheme: CESSDA
+  subject: First quintile
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_SecondQuintile?v=2.1.2&id=17287
+  scheme: CESSDA
+  subject: Second quintile
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_ThirdQuintile?v=2.1.2&id=17286
+  scheme: CESSDA
+  subject: Third quintile
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_FourthQuintile?v=2.1.2&id=17262
+  scheme: CESSDA
+  subject: Fourth quintile
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_InterquintileRange?v=2.1.2&id=17258
+  scheme: CESSDA
+  subject: Interquintile range
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_FirstDecile?v=2.1.2&id=17290
+  scheme: CESSDA
+  subject: First decile
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_SecondDecile?v=2.1.2&id=17282
+  scheme: CESSDA
+  subject: Second decile
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_ThirdDecile?v=2.1.2&id=17280
+  scheme: CESSDA
+  subject: Third decile
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_FourthDecile?v=2.1.2&id=17264
+  scheme: CESSDA
+  subject: Fourth decile
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_FifthDecile?v=2.1.2&id=17263
+  scheme: CESSDA
+  subject: Fifth decile
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_SixthDecile?v=2.1.2&id=17291
+  scheme: CESSDA
+  subject: Sixth decile
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_SeventhDecile?v=2.1.2&id=17268
+  scheme: CESSDA
+  subject: Seventh decile
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_EighthDecile?v=2.1.2&id=17257
+  scheme: CESSDA
+  subject: Eighth decile
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_NinthDecile?v=2.1.2&id=17277
+  scheme: CESSDA
+  subject: Ninth decile
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_InterdecileRange?v=2.1.2&id=17288
+  scheme: CESSDA
+  subject: Interdecile range
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_OtherPercentile?v=2.1.2&id=17266
+  scheme: CESSDA
+  subject: Other percentile
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_Beta1?v=2.1.2&id=17265
+  scheme: CESSDA
+  subject: Skewness
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_Beta2?v=2.1.2&id=17278
+  scheme: CESSDA
+  subject: Kurtosis
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_ShapiroWilk?v=2.1.2&id=17251
+  scheme: CESSDA
+  subject: Shapiro-Wilk
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_PercentageOfValidCases?v=2.1.2&id=17252
+  scheme: CESSDA
+  subject: Percentage of valid cases
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_PercentageOfInvalidCases?v=2.1.2&id=17261
+  scheme: CESSDA
+  subject: Percentage of invalid cases
+- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_Other?v=2.1.2&id=17283
+  scheme: CESSDA
+  subject: Other
+- id: https://vocabularies.cessda.eu/vocabulary/TimeMethod_Longitudinal?v=1.2.3&id=19859
+  scheme: CESSDA
+  subject: Longitudinal
+- id: https://vocabularies.cessda.eu/vocabulary/TimeMethod_CohortEventBased?v=1.2.3&id=19860
+  scheme: CESSDA
+  subject: 'Longitudinal: Cohort/Event-based'
+- id: https://vocabularies.cessda.eu/vocabulary/TimeMethod_TrendRepeatedCrossSection?v=1.2.3&id=19861
+  scheme: CESSDA
+  subject: 'Longitudinal: Trend/Repeated cross-section'
+- id: https://vocabularies.cessda.eu/vocabulary/TimeMethod_Panel?v=1.2.3&id=19863
+  scheme: CESSDA
+  subject: 'Longitudinal: Panel'
+- id: https://vocabularies.cessda.eu/vocabulary/TimeMethod_Continuous?v=1.2.3&id=19864
+  scheme: CESSDA
+  subject: 'Longitudinal: Panel: Continuous'
+- id: https://vocabularies.cessda.eu/vocabulary/TimeMethod_Interval?v=1.2.3&id=19865
+  scheme: CESSDA
+  subject: 'Longitudinal: Panel: Interval'
+- id: https://vocabularies.cessda.eu/vocabulary/TimeMethod_TimeSeries?v=1.2.3&id=19858
+  scheme: CESSDA
+  subject: Time series
+- id: https://vocabularies.cessda.eu/vocabulary/TimeMethod_Continuous?v=1.2.3&id=19866
+  scheme: CESSDA
+  subject: 'Time series: Continuous'
+- id: https://vocabularies.cessda.eu/vocabulary/TimeMethod_Discrete?v=1.2.3&id=19868
+  scheme: CESSDA
+  subject: 'Time series: Discrete'
+- id: https://vocabularies.cessda.eu/vocabulary/TimeMethod_CrossSection?v=1.2.3&id=19869
+  scheme: CESSDA
+  subject: Cross-section
+- id: https://vocabularies.cessda.eu/vocabulary/TimeMethod_CrossSectionAdHocFollowUp?v=1.2.3&id=19867
+  scheme: CESSDA
+  subject: Cross-section ad-hoc follow-up
+- id: https://vocabularies.cessda.eu/vocabulary/TimeMethod_Other?v=1.2.3&id=19862
+  scheme: CESSDA
+  subject: Other
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-12:00?v=1.0&id=4632
+  scheme: CESSDA
+  subject: UTC- 12:00
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-11:00?v=1.0&id=4633
+  scheme: CESSDA
+  subject: UTC- 11:00
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-10:00?v=1.0&id=4634
+  scheme: CESSDA
+  subject: UTC- 10:00
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-09:30?v=1.0&id=4635
+  scheme: CESSDA
+  subject: UTC- 09:30
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-09:00?v=1.0&id=4636
+  scheme: CESSDA
+  subject: UTC- 09:00
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-08:00?v=1.0&id=4637
+  scheme: CESSDA
+  subject: UTC- 08:00
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-07:00?v=1.0&id=4638
+  scheme: CESSDA
+  subject: UTC- 07:00
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-06:00?v=1.0&id=4639
+  scheme: CESSDA
+  subject: UTC- 06:00
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-05:00?v=1.0&id=4640
+  scheme: CESSDA
+  subject: UTC- 05:00
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-04:30?v=1.0&id=4641
+  scheme: CESSDA
+  subject: UTC- 04:30
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-04:00?v=1.0&id=4642
+  scheme: CESSDA
+  subject: UTC- 04:00
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-03:30?v=1.0&id=4643
+  scheme: CESSDA
+  subject: UTC- 03:30
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-03:00?v=1.0&id=4644
+  scheme: CESSDA
+  subject: UTC- 03:00
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-02:00?v=1.0&id=4645
+  scheme: CESSDA
+  subject: UTC- 02:00
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_-01:00?v=1.0&id=4646
+  scheme: CESSDA
+  subject: UTC- 01:00
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_00:00?v=1.0&id=4647
+  scheme: CESSDA
+  subject: UTC
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+01:00?v=1.0&id=4648
+  scheme: CESSDA
+  subject: UTC + 01:00
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+02:00?v=1.0&id=4649
+  scheme: CESSDA
+  subject: UTC + 02:00
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+03:00?v=1.0&id=4650
+  scheme: CESSDA
+  subject: UTC + 03:00
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+03:30?v=1.0&id=4651
+  scheme: CESSDA
+  subject: UTC + 03:30
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+04:00?v=1.0&id=4652
+  scheme: CESSDA
+  subject: UTC + 04:00
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+04:30?v=1.0&id=4653
+  scheme: CESSDA
+  subject: UTC + 04:30
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+05:00?v=1.0&id=4654
+  scheme: CESSDA
+  subject: UTC + 05:00
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+05:30?v=1.0&id=4655
+  scheme: CESSDA
+  subject: UTC + 05:30
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+05:45?v=1.0&id=4656
+  scheme: CESSDA
+  subject: UTC + 05:45
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+06:00?v=1.0&id=4657
+  scheme: CESSDA
+  subject: UTC + 06:00
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+06:30?v=1.0&id=4658
+  scheme: CESSDA
+  subject: UTC + 06:30
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+07:00?v=1.0&id=4659
+  scheme: CESSDA
+  subject: UTC + 07:00
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+08:00?v=1.0&id=4660
+  scheme: CESSDA
+  subject: UTC + 08:00
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+09:00?v=1.0&id=4661
+  scheme: CESSDA
+  subject: UTC + 09:00
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+09:30?v=1.0&id=4662
+  scheme: CESSDA
+  subject: UTC + 09:30
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+10:00?v=1.0&id=4663
+  scheme: CESSDA
+  subject: UTC + 10:00
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+10:30?v=1.0&id=4664
+  scheme: CESSDA
+  subject: UTC + 10:30
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+11:00?v=1.0&id=4665
+  scheme: CESSDA
+  subject: UTC + 11:00
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+11:30?v=1.0&id=4666
+  scheme: CESSDA
+  subject: UTC + 11:30
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+12:00?v=1.0&id=4667
+  scheme: CESSDA
+  subject: UTC + 12:00
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+12:45?v=1.0&id=4668
+  scheme: CESSDA
+  subject: UTC + 12:45
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+13:00?v=1.0&id=4669
+  scheme: CESSDA
+  subject: UTC + 13:00
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_+14:00?v=1.0&id=4670
+  scheme: CESSDA
+  subject: UTC + 14:00
+- id: https://vocabularies.cessda.eu/vocabulary/TimeZone_Other?v=1.0&id=4671
+  scheme: CESSDA
+  subject: Other
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfAddress_Mailing?v=1.1&id=8812
+  scheme: CESSDA
+  subject: Mailing address
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfAddress_Residential?v=1.1&id=8817
+  scheme: CESSDA
+  subject: 'Mailing address: Residential'
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfAddress_Nonresidential?v=1.1&id=8814
+  scheme: CESSDA
+  subject: 'Mailing address: Nonresidential'
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfAddress_Visiting?v=1.1&id=8818
+  scheme: CESSDA
+  subject: Visiting address
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfAddress_Residential?v=1.1&id=8816
+  scheme: CESSDA
+  subject: 'Visiting address: Residential'
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfAddress_Nonresidential?v=1.1&id=8815
+  scheme: CESSDA
+  subject: 'Visiting address: Nonresidential'
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfAddress_Other?v=1.1&id=8813
+  scheme: CESSDA
+  subject: Other
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfConceptGroup_Administrative?v=1.0.2&id=19177
+  scheme: CESSDA
+  subject: Administrative
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfConceptGroup_Thematic?v=1.0.2&id=19178
+  scheme: CESSDA
+  subject: Thematic
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfConceptGroup_Other?v=1.0.2&id=19179
+  scheme: CESSDA
+  subject: Other
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_Continuous?v=1.0&id=15692
+  scheme: CESSDA
+  subject: Continuous
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_EveryMinute?v=1.0&id=15693
+  scheme: CESSDA
+  subject: Every minute
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_EveryHour?v=1.0&id=15694
+  scheme: CESSDA
+  subject: Every hour
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_EveryTwoHours?v=1.0&id=15695
+  scheme: CESSDA
+  subject: Every two hours
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_EveryThreeHours?v=1.0&id=15696
+  scheme: CESSDA
+  subject: Every three hours
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_TwiceADay?v=1.0&id=15697
+  scheme: CESSDA
+  subject: Twice a day
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_EveryDay?v=1.0&id=15698
+  scheme: CESSDA
+  subject: Every day
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_EveryBusinessDay?v=1.0&id=15699
+  scheme: CESSDA
+  subject: Every business day
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_OccasionalDaily?v=1.0&id=15700
+  scheme: CESSDA
+  subject: Occasional daily
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_ThreeTimesAWeek?v=1.0&id=15702
+  scheme: CESSDA
+  subject: Three times a week
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_TwiceAWeek?v=1.0&id=15703
+  scheme: CESSDA
+  subject: Twice a week
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_EveryWeek?v=1.0&id=15704
+  scheme: CESSDA
+  subject: Every week
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_OccasionalWeekly?v=1.0&id=15705
+  scheme: CESSDA
+  subject: Occasional weekly
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_EveryTenDays?v=1.0&id=15701
+  scheme: CESSDA
+  subject: Every ten days
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_ThreeTimesAMonth?v=1.0&id=15709
+  scheme: CESSDA
+  subject: Three times a month
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_EveryTwoWeeks?v=1.0&id=15706
+  scheme: CESSDA
+  subject: Every two weeks
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_TwiceAMonth?v=1.0&id=15710
+  scheme: CESSDA
+  subject: Twice a month
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_EveryThreeWeeks?v=1.0&id=15707
+  scheme: CESSDA
+  subject: Every three weeks
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_EveryFourWeeks?v=1.0&id=15708
+  scheme: CESSDA
+  subject: Every four weeks
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_EveryMonth?v=1.0&id=15711
+  scheme: CESSDA
+  subject: Every month
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_OccasionalMonthly?v=1.0&id=15712
+  scheme: CESSDA
+  subject: Occasional monthly
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_EveryTwoMonths?v=1.0&id=15713
+  scheme: CESSDA
+  subject: Every two months
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_EveryThreeMonths?v=1.0&id=15714
+  scheme: CESSDA
+  subject: Every three months
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_ThreeTimesAYear?v=1.0&id=15715
+  scheme: CESSDA
+  subject: Three times a year
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_TwiceAYear?v=1.0&id=15716
+  scheme: CESSDA
+  subject: Twice a year
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_EveryYear?v=1.0&id=15717
+  scheme: CESSDA
+  subject: Every year
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_OccasionalAnnual?v=1.0&id=15718
+  scheme: CESSDA
+  subject: Occasional annual
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_EveryTwoYears?v=1.0&id=15719
+  scheme: CESSDA
+  subject: Every two years
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_EveryThreeYears?v=1.0&id=15720
+  scheme: CESSDA
+  subject: Every three years
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_EveryFourYears?v=1.0&id=15721
+  scheme: CESSDA
+  subject: Every four years
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_EveryFiveYears?v=1.0&id=15722
+  scheme: CESSDA
+  subject: Every five years
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_EveryTenYears?v=1.0&id=15723
+  scheme: CESSDA
+  subject: Every ten years
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_EveryTwentyYears?v=1.0&id=15724
+  scheme: CESSDA
+  subject: Every twenty years
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_EveryThirtyYears?v=1.0&id=15725
+  scheme: CESSDA
+  subject: Every thirty years
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_Irregular?v=1.0&id=15726
+  scheme: CESSDA
+  subject: Irregular
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_Other?v=1.0&id=15727
+  scheme: CESSDA
+  subject: Other
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_Unspecified?v=1.0&id=15728
+  scheme: CESSDA
+  subject: Unspecified
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfFrequency_NotApplicable?v=1.0&id=15729
+  scheme: CESSDA
+  subject: Not applicable
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_Questionnaire?v=1.1.2&id=16813
+  scheme: CESSDA
+  subject: Questionnaire
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_Structured?v=1.1.2&id=16812
+  scheme: CESSDA
+  subject: Structured questionnaire
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_Semistructured?v=1.1.2&id=16814
+  scheme: CESSDA
+  subject: Semi-structured questionnaire
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_Unstructured?v=1.1.2&id=16818
+  scheme: CESSDA
+  subject: Unstructured questionnaire
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_InterviewSchemeAndThemes?v=1.1.2&id=16819
+  scheme: CESSDA
+  subject: Interview scheme and/or themes
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_DataCollectionGuidelines?v=1.1.2&id=16821
+  scheme: CESSDA
+  subject: Data collection guidelines
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_ObservationGuide?v=1.1.2&id=16823
+  scheme: CESSDA
+  subject: 'Data collection guidelines: Observation guide'
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_DiscussionGuide?v=1.1.2&id=16824
+  scheme: CESSDA
+  subject: 'Data collection guidelines: Discussion guide'
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_SelfAdministeredWritingsGuide?v=1.1.2&id=16825
+  scheme: CESSDA
+  subject: 'Data collection guidelines: Self-administered writings guide'
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_SecondaryDataCollectionGuide?v=1.1.2&id=16815
+  scheme: CESSDA
+  subject: 'Data collection guidelines: Secondary data collection guide'
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_ParticipantTasks?v=1.1.2&id=16820
+  scheme: CESSDA
+  subject: Participant tasks
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_TechnicalInstruments?v=1.1.2&id=16817
+  scheme: CESSDA
+  subject: Technical instrument(s)
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_ProgrammingScript?v=1.1.2&id=16822
+  scheme: CESSDA
+  subject: Programming script
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_Other?v=1.1.2&id=16816
+  scheme: CESSDA
+  subject: Other
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfNote_Processing?v=1.1&id=8807
+  scheme: CESSDA
+  subject: Processing note
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfNote_Addendum?v=1.1&id=8811
+  scheme: CESSDA
+  subject: Addendum
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfNote_System?v=1.1&id=8809
+  scheme: CESSDA
+  subject: System note
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfNote_Observation?v=1.1&id=8810
+  scheme: CESSDA
+  subject: Observation
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfNote_Comment?v=1.1&id=8806
+  scheme: CESSDA
+  subject: Comment
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfNote_Other?v=1.1&id=8808
+  scheme: CESSDA
+  subject: Other
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfTelephone_Fixed?v=1.0&id=3551
+  scheme: CESSDA
+  subject: Fixed telephone
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfTelephone_PersonalPrivate?v=1.0&id=3552
+  scheme: CESSDA
+  subject: 'Fixed telephone: Personal/Private'
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfTelephone_OrganizationBusiness?v=1.0&id=3553
+  scheme: CESSDA
+  subject: 'Fixed telephone: Organization/Business'
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfTelephone_Mobile?v=1.0&id=3554
+  scheme: CESSDA
+  subject: Mobile telephone
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfTelephone_PersonalPrivate?v=1.0&id=3555
+  scheme: CESSDA
+  subject: 'Mobile telephone: Personal/Private'
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfTelephone_OrganizationBusiness?v=1.0&id=3556
+  scheme: CESSDA
+  subject: 'Mobile telephone: Organization/Business'
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfTelephone_Fax?v=1.0&id=3557
+  scheme: CESSDA
+  subject: Fax
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfTelephone_PersonalPrivate?v=1.0&id=3558
+  scheme: CESSDA
+  subject: 'Fax: Personal/Private'
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfTelephone_OrganizationBusiness?v=1.0&id=3559
+  scheme: CESSDA
+  subject: 'Fax: Organization/Business'
+- id: https://vocabularies.cessda.eu/vocabulary/TypeOfTelephone_Other?v=1.0&id=3560
   scheme: CESSDA
   subject: Other
 - id: https://vocabularies.cessda.eu/vocabulary/TypeOfTranslationMethod_SingleTranslation?v=1.0&id=15610
@@ -1705,963 +2782,21 @@
 - id: https://vocabularies.cessda.eu/vocabulary/TypeOfTranslationMethod_Other?v=1.0&id=15622
   scheme: CESSDA
   subject: Other
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_String?v=1.1&id=8261
+- id: https://www.gesis.org/vocabulary/Variables-Relations_01/1.0.0/en&id=21669
   scheme: CESSDA
-  subject: String
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_NormalizedString?v=1.1&id=8238
+  subject: IsBasedOn.hasDifferentWave
+- id: https://www.gesis.org/vocabulary/Variables-Relations_02/1.0.0/en&id=21670
   scheme: CESSDA
-  subject: Normalized string
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_Boolean?v=1.1&id=8241
+  subject: IsBasedOn.hasDifferentSurvey
+- id: https://www.gesis.org/vocabulary/Variables-Relations_03/1.0.0/en&id=21671
   scheme: CESSDA
-  subject: Boolean
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_Decimal?v=1.1&id=8232
+  subject: IsBasedOn.hasDifferentVarName
+- id: https://www.gesis.org/vocabulary/Variables-Relations_04/1.0.0/en&id=21672
   scheme: CESSDA
-  subject: Decimal
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_Integer?v=1.1&id=8249
+  subject: IsBasedOn.hasDifferentVarLabel
+- id: https://www.gesis.org/vocabulary/Variables-Relations_05/1.0.0/en&id=21673
   scheme: CESSDA
-  subject: Integer
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_PositiveInteger?v=1.1&id=8253
+  subject: IsBasedOn.hasDifferentQuestion
+- id: https://www.gesis.org/vocabulary/Variables-Relations_06/1.0.0/en&id=21674
   scheme: CESSDA
-  subject: Positive integer
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_NegativeInteger?v=1.1&id=8231
-  scheme: CESSDA
-  subject: Negative integer
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_NonNegativeInteger?v=1.1&id=8250
-  scheme: CESSDA
-  subject: Non-negative integer
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_NonPositiveInteger?v=1.1&id=8239
-  scheme: CESSDA
-  subject: Non-positive integer
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_Long?v=1.1&id=8242
-  scheme: CESSDA
-  subject: Long
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_Int?v=1.1&id=8247
-  scheme: CESSDA
-  subject: Int
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_Short?v=1.1&id=8243
-  scheme: CESSDA
-  subject: Short
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_Byte?v=1.1&id=8256
-  scheme: CESSDA
-  subject: Byte
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_UnsignedLong?v=1.1&id=8255
-  scheme: CESSDA
-  subject: Unsigned long
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_UnsignedInt?v=1.1&id=8230
-  scheme: CESSDA
-  subject: Unsigned int
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_UnsignedShort?v=1.1&id=8257
-  scheme: CESSDA
-  subject: Unsigned short
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_UnsignedByte?v=1.1&id=8233
-  scheme: CESSDA
-  subject: Unsigned byte
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_Float?v=1.1&id=8245
-  scheme: CESSDA
-  subject: Float
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_Double?v=1.1&id=8251
-  scheme: CESSDA
-  subject: Double
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_DateTime?v=1.1&id=8258
-  scheme: CESSDA
-  subject: DateTime
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_Time?v=1.1&id=8260
-  scheme: CESSDA
-  subject: Time
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_Date?v=1.1&id=8248
-  scheme: CESSDA
-  subject: Date
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_GYearMonth?v=1.1&id=8259
-  scheme: CESSDA
-  subject: YearMonth
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_GYear?v=1.1&id=8246
-  scheme: CESSDA
-  subject: Year
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_GMonthDay?v=1.1&id=8236
-  scheme: CESSDA
-  subject: MonthDay
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_GDay?v=1.1&id=8235
-  scheme: CESSDA
-  subject: Day
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_GMonth?v=1.1&id=8244
-  scheme: CESSDA
-  subject: Month
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_Duration?v=1.1&id=8240
-  scheme: CESSDA
-  subject: Duration
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_HexBinary?v=1.1&id=8254
-  scheme: CESSDA
-  subject: hexBinary
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_Base64Binary?v=1.1&id=8252
-  scheme: CESSDA
-  subject: base64Binary
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_AnyURI?v=1.1&id=8234
-  scheme: CESSDA
-  subject: anyURI
-- id: https://vocabularies.cessda.eu/vocabulary/DataType_Other?v=1.1&id=8237
-  scheme: CESSDA
-  subject: Other
-- id: https://vocabularies.cessda.eu/vocabulary/TimeMethod_Longitudinal?v=1.2&id=5329
-  scheme: CESSDA
-  subject: Longitudinal
-- id: https://vocabularies.cessda.eu/vocabulary/TimeMethod_CohortEventBased?v=1.2&id=5330
-  scheme: CESSDA
-  subject: 'Longitudinal: Cohort/Event-based'
-- id: https://vocabularies.cessda.eu/vocabulary/TimeMethod_TrendRepeatedCrossSection?v=1.2&id=5331
-  scheme: CESSDA
-  subject: 'Longitudinal: Trend/Repeated cross-section'
-- id: https://vocabularies.cessda.eu/vocabulary/TimeMethod_Panel?v=1.2&id=5332
-  scheme: CESSDA
-  subject: 'Longitudinal: Panel'
-- id: https://vocabularies.cessda.eu/vocabulary/TimeMethod_Continuous?v=1.2&id=5341
-  scheme: CESSDA
-  subject: 'Longitudinal: Panel: Continuous'
-- id: https://vocabularies.cessda.eu/vocabulary/TimeMethod_Interval?v=1.2&id=5334
-  scheme: CESSDA
-  subject: 'Longitudinal: Panel: Interval'
-- id: https://vocabularies.cessda.eu/vocabulary/TimeMethod_TimeSeries?v=1.2&id=5335
-  scheme: CESSDA
-  subject: Time series
-- id: https://vocabularies.cessda.eu/vocabulary/TimeMethod_Continuous?v=1.2&id=5336
-  scheme: CESSDA
-  subject: 'Time series: Continuous'
-- id: https://vocabularies.cessda.eu/vocabulary/TimeMethod_Discrete?v=1.2&id=5337
-  scheme: CESSDA
-  subject: 'Time series: Discrete'
-- id: https://vocabularies.cessda.eu/vocabulary/TimeMethod_CrossSection?v=1.2&id=5338
-  scheme: CESSDA
-  subject: Cross-section
-- id: https://vocabularies.cessda.eu/vocabulary/TimeMethod_CrossSectionAdHocFollowUp?v=1.2&id=5339
-  scheme: CESSDA
-  subject: Cross-section ad-hoc follow-up
-- id: https://vocabularies.cessda.eu/vocabulary/TimeMethod_Other?v=1.2&id=5340
-  scheme: CESSDA
-  subject: Other
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_Questionnaire?v=1.1&id=1810
-  scheme: CESSDA
-  subject: Questionnaire
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_Structured?v=1.1&id=1811
-  scheme: CESSDA
-  subject: Structured questionnaire
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_Semistructured?v=1.1&id=1812
-  scheme: CESSDA
-  subject: Semi-structured questionnaire
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_Unstructured?v=1.1&id=1813
-  scheme: CESSDA
-  subject: Unstructured questionnaire
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_InterviewSchemeAndThemes?v=1.1&id=1814
-  scheme: CESSDA
-  subject: Interview scheme and/or themes
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_DataCollectionGuidelines?v=1.1&id=1815
-  scheme: CESSDA
-  subject: Data collection guidelines
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_ObservationGuide?v=1.1&id=1816
-  scheme: CESSDA
-  subject: 'Data collection guidelines: Observation guide'
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_DiscussionGuide?v=1.1&id=1817
-  scheme: CESSDA
-  subject: 'Data collection guidelines: Discussion guide'
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_SelfAdministeredWritingsGuide?v=1.1&id=1818
-  scheme: CESSDA
-  subject: 'Data collection guidelines: Self-administered writings guide'
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_SecondaryDataCollectionGuide?v=1.1&id=1819
-  scheme: CESSDA
-  subject: 'Data collection guidelines: Secondary data collection guide'
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_ParticipantTasks?v=1.1&id=1820
-  scheme: CESSDA
-  subject: Participant tasks
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_TechnicalInstruments?v=1.1&id=1821
-  scheme: CESSDA
-  subject: Technical instrument(s)
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_ProgrammingScript?v=1.1&id=1822
-  scheme: CESSDA
-  subject: Programming script
-- id: https://vocabularies.cessda.eu/vocabulary/TypeOfInstrument_Other?v=1.1&id=1823
-  scheme: CESSDA
-  subject: Other
-- id: https://vocabularies.cessda.eu/vocabulary/CommonalityType_Identical?v=1.0&id=3051
-  scheme: CESSDA
-  subject: Identical
-- id: https://vocabularies.cessda.eu/vocabulary/CommonalityType_Some?v=1.0&id=3052
-  scheme: CESSDA
-  subject: Some
-- id: https://vocabularies.cessda.eu/vocabulary/CommonalityType_None?v=1.0&id=3053
-  scheme: CESSDA
-  subject: None
-- id: https://vocabularies.cessda.eu/vocabulary/GeneralDataFormat_Numeric?v=2.0&id=1329
-  scheme: CESSDA
-  subject: Numeric
-- id: https://vocabularies.cessda.eu/vocabulary/GeneralDataFormat_Text?v=2.0&id=1330
-  scheme: CESSDA
-  subject: Text
-- id: https://vocabularies.cessda.eu/vocabulary/GeneralDataFormat_StillImage?v=2.0&id=1331
-  scheme: CESSDA
-  subject: Still image
-- id: https://vocabularies.cessda.eu/vocabulary/GeneralDataFormat_Geospatial?v=2.0&id=1332
-  scheme: CESSDA
-  subject: Geospatial
-- id: https://vocabularies.cessda.eu/vocabulary/GeneralDataFormat_Audio?v=2.0&id=1333
-  scheme: CESSDA
-  subject: Audio
-- id: https://vocabularies.cessda.eu/vocabulary/GeneralDataFormat_Video?v=2.0&id=1334
-  scheme: CESSDA
-  subject: Video
-- id: https://vocabularies.cessda.eu/vocabulary/GeneralDataFormat_Software?v=2.0&id=1335
-  scheme: CESSDA
-  subject: Software
-- id: https://vocabularies.cessda.eu/vocabulary/GeneralDataFormat_InteractiveResource?v=2.0&id=1336
-  scheme: CESSDA
-  subject: Interactive resource
-- id: https://vocabularies.cessda.eu/vocabulary/GeneralDataFormat_ThreeD?v=2.0&id=1337
-  scheme: CESSDA
-  subject: 3D
-- id: https://vocabularies.cessda.eu/vocabulary/GeneralDataFormat_Other?v=2.0&id=1338
-  scheme: CESSDA
-  subject: Other
-- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_TotalUniverseCompleteEnumeration?v=1.1&id=1988
-  scheme: CESSDA
-  subject: Total universe/Complete enumeration
-- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_Probability?v=1.1&id=1989
-  scheme: CESSDA
-  subject: Probability
-- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_SimpleRandom?v=1.1&id=1990
-  scheme: CESSDA
-  subject: 'Probability: Simple random'
-- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_SystematicRandom?v=1.1&id=1991
-  scheme: CESSDA
-  subject: 'Probability: Systematic random'
-- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_Stratified?v=1.1&id=1992
-  scheme: CESSDA
-  subject: 'Probability: Stratified'
-- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_Proportional?v=1.1&id=2006
-  scheme: CESSDA
-  subject: 'Probability: Stratified: Proportional'
-- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_Disproportional?v=1.1&id=1994
-  scheme: CESSDA
-  subject: 'Probability: Stratified: Disproportional'
-- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_Cluster?v=1.1&id=1995
-  scheme: CESSDA
-  subject: 'Probability: Cluster'
-- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_SimpleRandom?v=1.1&id=2009
-  scheme: CESSDA
-  subject: 'Probability: Cluster: Simple random'
-- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_StratifiedRandom?v=1.1&id=2008
-  scheme: CESSDA
-  subject: 'Probability: Cluster: Stratified random'
-- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_Multistage?v=1.1&id=1998
-  scheme: CESSDA
-  subject: 'Probability: Multistage'
-- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_Nonprobability?v=1.1&id=1999
-  scheme: CESSDA
-  subject: Non-probability
-- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_Availability?v=1.1&id=2000
-  scheme: CESSDA
-  subject: 'Non-probability: Availability'
-- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_Purposive?v=1.1&id=2001
-  scheme: CESSDA
-  subject: 'Non-probability: Purposive'
-- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_Quota?v=1.1&id=2002
-  scheme: CESSDA
-  subject: 'Non-probability: Quota'
-- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_RespondentAssisted?v=1.1&id=2003
-  scheme: CESSDA
-  subject: "Non-probability: Respondent-assisted \t"
-- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_MixedProbabilityNonprobability?v=1.1&id=2004
-  scheme: CESSDA
-  subject: Mixed probability and non-probability
-- id: https://vocabularies.cessda.eu/vocabulary/SamplingProcedure_Other?v=1.1&id=2005
-  scheme: CESSDA
-  subject: Other
-- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_RegistersRecordsAccounts?v=1.0&id=1921
-  scheme: CESSDA
-  subject: Registers/Records/Accounts
-- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_Administrative?v=1.0&id=1922
-  scheme: CESSDA
-  subject: 'Registers/Records/Accounts: Administrative'
-- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_Historical?v=1.0&id=1923
-  scheme: CESSDA
-  subject: 'Registers/Records/Accounts: Historical'
-- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_Legal?v=1.0&id=1924
-  scheme: CESSDA
-  subject: 'Registers/Records/Accounts: Legal'
-- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_MedicalClinical?v=1.0&id=1925
-  scheme: CESSDA
-  subject: 'Registers/Records/Accounts: Medical/Clinical'
-- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_AcademicAptitude?v=1.0&id=1926
-  scheme: CESSDA
-  subject: 'Registers/Records/Accounts: Academic/Aptitude'
-- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_EconomicFinancial?v=1.0&id=1927
-  scheme: CESSDA
-  subject: 'Registers/Records/Accounts: Economic/Financial'
-- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_Personal?v=1.0&id=1928
-  scheme: CESSDA
-  subject: 'Registers/Records/Accounts: Personal'
-- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_VotingResults?v=1.0&id=1929
-  scheme: CESSDA
-  subject: 'Registers/Records/Accounts: Voting results'
-- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_EventsInteractions?v=1.0&id=1930
-  scheme: CESSDA
-  subject: Events/Interactions
-- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_Processes?v=1.0&id=1931
-  scheme: CESSDA
-  subject: Processes
-- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_Workflows?v=1.0&id=1932
-  scheme: CESSDA
-  subject: 'Processes: Workflow(s)'
-- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_Communications?v=1.0&id=1933
-  scheme: CESSDA
-  subject: Communications
-- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_Public?v=1.0&id=1934
-  scheme: CESSDA
-  subject: 'Communications: Public'
-- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_Interpersonal?v=1.0&id=1935
-  scheme: CESSDA
-  subject: 'Communications: Interpersonal'
-- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_ResearchData?v=1.0&id=1936
-  scheme: CESSDA
-  subject: Research data
-- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_Published?v=1.0&id=1937
-  scheme: CESSDA
-  subject: 'Research data: Published'
-- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_Unpublished?v=1.0&id=1938
-  scheme: CESSDA
-  subject: 'Research data: Unpublished'
-- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_PopulationGroup?v=1.0&id=1939
-  scheme: CESSDA
-  subject: Population group
-- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_GeographicArea?v=1.0&id=1940
-  scheme: CESSDA
-  subject: Geographic area
-- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_PhysicalObjects?v=1.0&id=1941
-  scheme: CESSDA
-  subject: Physical objects
-- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_BiologicalSamples?v=1.0&id=1942
-  scheme: CESSDA
-  subject: Biological samples
-- id: https://vocabularies.cessda.eu/vocabulary/DataSourceType_Other?v=1.0&id=1943
-  scheme: CESSDA
-  subject: Other
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_ArithmeticMean?v=2.1&id=1944
-  scheme: CESSDA
-  subject: Arithmetic mean
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_GeometricMean?v=2.1&id=1945
-  scheme: CESSDA
-  subject: Geometric mean
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_HarmonicMean?v=2.1&id=1946
-  scheme: CESSDA
-  subject: Harmonic mean
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_TrimmedMean?v=2.1&id=1947
-  scheme: CESSDA
-  subject: Trimmed mean
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_StandardErrorOfMean?v=2.1&id=1948
-  scheme: CESSDA
-  subject: Standard error of the mean
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_Mode?v=2.1&id=1949
-  scheme: CESSDA
-  subject: Mode
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_Median?v=2.1&id=1950
-  scheme: CESSDA
-  subject: Median
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_ValidCases?v=2.1&id=1951
-  scheme: CESSDA
-  subject: Valid cases
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_InvalidCases?v=2.1&id=1952
-  scheme: CESSDA
-  subject: Invalid cases
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_Minimum?v=2.1&id=1953
-  scheme: CESSDA
-  subject: Minimum
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_Maximum?v=2.1&id=1954
-  scheme: CESSDA
-  subject: Maximum
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_Range?v=2.1&id=1955
-  scheme: CESSDA
-  subject: Range
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_Sum?v=2.1&id=1956
-  scheme: CESSDA
-  subject: Sum
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_Variance?v=2.1&id=1957
-  scheme: CESSDA
-  subject: Variance
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_StandardDeviation?v=2.1&id=1958
-  scheme: CESSDA
-  subject: Standard deviation
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_CoefficientOfVariation?v=2.1&id=1959
-  scheme: CESSDA
-  subject: Coefficient of variation
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_AverageAbsoluteDeviation?v=2.1&id=1960
-  scheme: CESSDA
-  subject: Average absolute deviation
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_MedianAbsoluteDeviation?v=2.1&id=1961
-  scheme: CESSDA
-  subject: Median absolute deviation
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_FirstQuartile?v=2.1&id=1962
-  scheme: CESSDA
-  subject: First quartile
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_SecondQuartile?v=2.1&id=1963
-  scheme: CESSDA
-  subject: Second quartile
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_ThirdQuartile?v=2.1&id=1964
-  scheme: CESSDA
-  subject: Third quartile
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_InterquartileRange?v=2.1&id=1965
-  scheme: CESSDA
-  subject: Interquartile range
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_FirstQuintile?v=2.1&id=1966
-  scheme: CESSDA
-  subject: First quintile
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_SecondQuintile?v=2.1&id=1967
-  scheme: CESSDA
-  subject: Second quintile
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_ThirdQuintile?v=2.1&id=1968
-  scheme: CESSDA
-  subject: Third quintile
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_FourthQuintile?v=2.1&id=1969
-  scheme: CESSDA
-  subject: Fourth quintile
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_InterquintileRange?v=2.1&id=1970
-  scheme: CESSDA
-  subject: Interquintile range
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_FirstDecile?v=2.1&id=1971
-  scheme: CESSDA
-  subject: First decile
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_SecondDecile?v=2.1&id=1972
-  scheme: CESSDA
-  subject: Second decile
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_ThirdDecile?v=2.1&id=1973
-  scheme: CESSDA
-  subject: Third decile
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_FourthDecile?v=2.1&id=1974
-  scheme: CESSDA
-  subject: Fourth decile
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_FifthDecile?v=2.1&id=1975
-  scheme: CESSDA
-  subject: Fifth decile
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_SixthDecile?v=2.1&id=1976
-  scheme: CESSDA
-  subject: Sixth decile
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_SeventhDecile?v=2.1&id=1977
-  scheme: CESSDA
-  subject: Seventh decile
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_EighthDecile?v=2.1&id=1978
-  scheme: CESSDA
-  subject: Eighth decile
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_NinthDecile?v=2.1&id=1979
-  scheme: CESSDA
-  subject: Ninth decile
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_InterdecileRange?v=2.1&id=1980
-  scheme: CESSDA
-  subject: Interdecile range
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_OtherPercentile?v=2.1&id=1981
-  scheme: CESSDA
-  subject: Other percentile
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_Beta1?v=2.1&id=1982
-  scheme: CESSDA
-  subject: Skewness
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_Beta2?v=2.1&id=1983
-  scheme: CESSDA
-  subject: Kurtosis
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_ShapiroWilk?v=2.1&id=1984
-  scheme: CESSDA
-  subject: Shapiro-Wilk
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_PercentageOfValidCases?v=2.1&id=1985
-  scheme: CESSDA
-  subject: Percentage of valid cases
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_PercentageOfInvalidCases?v=2.1&id=1986
-  scheme: CESSDA
-  subject: Percentage of invalid cases
-- id: https://vocabularies.cessda.eu/vocabulary/SummaryStatisticType_Other?v=2.1&id=1987
-  scheme: CESSDA
-  subject: Other
-- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_Individual?v=2.1&id=12255
-  scheme: CESSDA
-  subject: Individual
-- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_OrganizationOrInstitution?v=2.1&id=12266
-  scheme: CESSDA
-  subject: Organization/Institution
-- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_Family?v=2.1&id=12251
-  scheme: CESSDA
-  subject: Family
-- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_HouseholdFamily?v=2.1&id=12264
-  scheme: CESSDA
-  subject: 'Family: Household family'
-- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_Household?v=2.1&id=12259
-  scheme: CESSDA
-  subject: Household
-- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_HousingUnit?v=2.1&id=12256
-  scheme: CESSDA
-  subject: Housing unit
-- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_EventOrProcessOrActivity?v=2.1&id=12265
-  scheme: CESSDA
-  subject: Event/Process/Activity
-- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_GeographicUnit?v=2.1&id=12261
-  scheme: CESSDA
-  subject: Geographic unit
-- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_PoliticalAdministrativeArea?v=2.1&id=12257
-  scheme: CESSDA
-  subject: Political-administrative area
-- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_TimeUnit?v=2.1&id=12254
-  scheme: CESSDA
-  subject: Time unit
-- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_MediaUnit?v=2.1&id=12258
-  scheme: CESSDA
-  subject: Media unit
-- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_Sound?v=2.1&id=12250
-  scheme: CESSDA
-  subject: 'Media unit: Sound'
-- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_StillImage?v=2.1&id=12263
-  scheme: CESSDA
-  subject: 'Media unit: Still image'
-- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_Text?v=2.1&id=12267
-  scheme: CESSDA
-  subject: 'Media unit: Text'
-- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_Video?v=2.1&id=12260
-  scheme: CESSDA
-  subject: 'Media unit: Video'
-- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_Group?v=2.1&id=12262
-  scheme: CESSDA
-  subject: Group
-- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_Object?v=2.1&id=12252
-  scheme: CESSDA
-  subject: Object
-- id: https://vocabularies.cessda.eu/vocabulary/AnalysisUnit_Other?v=2.1&id=12253
-  scheme: CESSDA
-  subject: Other
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Interview?v=4.0&id=10748
-  scheme: CESSDA
-  subject: Interview
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_FaceToFace?v=4.0&id=10776
-  scheme: CESSDA
-  subject: Face-to-face interview
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_CAPIorCAMI?v=4.0&id=10775
-  scheme: CESSDA
-  subject: 'Face-to-face interview: Computer-assisted (CAPI/CAMI)'
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_PAPI?v=4.0&id=10760
-  scheme: CESSDA
-  subject: 'Face-to-face interview: Paper-and-pencil (PAPI)'
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Telephone?v=4.0&id=10771
-  scheme: CESSDA
-  subject: Telephone interview
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_CATI?v=4.0&id=10750
-  scheme: CESSDA
-  subject: 'Telephone interview: Computer-assisted (CATI)'
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Email?v=4.0&id=10743
-  scheme: CESSDA
-  subject: E-mail interview
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_WebBased?v=4.0&id=10753
-  scheme: CESSDA
-  subject: Web-based interview
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_SelfAdministeredQuestionnaire?v=4.0&id=10751
-  scheme: CESSDA
-  subject: Self-administered questionnaire
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Email?v=4.0&id=10783
-  scheme: CESSDA
-  subject: 'Self-administered questionnaire: E-mail'
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Paper?v=4.0&id=10757
-  scheme: CESSDA
-  subject: 'Self-administered questionnaire: Paper'
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_SMSorMMS?v=4.0&id=10768
-  scheme: CESSDA
-  subject: 'Self-administered questionnaire: Messaging (SMS/MMS)'
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_CAWI?v=4.0&id=10786
-  scheme: CESSDA
-  subject: 'Self-administered questionnaire: Web-based (CAWI)'
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_CASI?v=4.0&id=10744
-  scheme: CESSDA
-  subject: 'Self-administered questionnaire: Computer-assisted (CASI)'
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_FocusGroup?v=4.0&id=10746
-  scheme: CESSDA
-  subject: Focus group
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_FaceToFace?v=4.0&id=10777
-  scheme: CESSDA
-  subject: Face-to-face focus group
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Telephone?v=4.0&id=10788
-  scheme: CESSDA
-  subject: Telephone focus group
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Online?v=4.0&id=10784
-  scheme: CESSDA
-  subject: Online focus group
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_SelfAdministeredWritingsAndDiaries?v=4.0&id=10767
-  scheme: CESSDA
-  subject: Self-administered writings and/or diaries
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Email?v=4.0&id=10779
-  scheme: CESSDA
-  subject: 'Self-administered writings and/or diaries: E-mail'
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Paper?v=4.0&id=10787
-  scheme: CESSDA
-  subject: 'Self-administered writings and/or diaries: Paper'
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_WebBased?v=4.0&id=10756
-  scheme: CESSDA
-  subject: 'Self-administered writings and/or diaries: Web-based'
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Observation?v=4.0&id=10773
-  scheme: CESSDA
-  subject: Observation
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Field?v=4.0&id=10749
-  scheme: CESSDA
-  subject: Field observation
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Participant?v=4.0&id=10770
-  scheme: CESSDA
-  subject: Participant field observation
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Nonparticipant?v=4.0&id=10754
-  scheme: CESSDA
-  subject: Non-participant field observation
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Laboratory?v=4.0&id=10774
-  scheme: CESSDA
-  subject: Laboratory observation
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Participant?v=4.0&id=10761
-  scheme: CESSDA
-  subject: Participant laboratory observation
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Nonparticipant?v=4.0&id=10778
-  scheme: CESSDA
-  subject: Non-participant laboratory observation
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_ComputerBased?v=4.0&id=10785
-  scheme: CESSDA
-  subject: Computer-based observation
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Experiment?v=4.0&id=10763
-  scheme: CESSDA
-  subject: Experiment
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Laboratory?v=4.0&id=10772
-  scheme: CESSDA
-  subject: Laboratory experiment
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_FieldIntervention?v=4.0&id=10764
-  scheme: CESSDA
-  subject: Field/Intervention experiment
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_WebBased?v=4.0&id=10747
-  scheme: CESSDA
-  subject: Web-based experiment
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Recording?v=4.0&id=10766
-  scheme: CESSDA
-  subject: Recording
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_RemoteSensing?v=4.0&id=10789
-  scheme: CESSDA
-  subject: 'Recording: Remote sensing'
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_AutomatedDataExtraction?v=4.0&id=10828
-  scheme: CESSDA
-  subject: Automated data extraction
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_ApiQuery?v=4.0&id=10829
-  scheme: CESSDA
-  subject: 'Automated data extraction: API query'
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_DatabaseQuery?v=4.0&id=10830
-  scheme: CESSDA
-  subject: 'Automated data extraction: Database query'
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_WebScraping?v=4.0&id=10831
-  scheme: CESSDA
-  subject: 'Automated data extraction: Web scraping'
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_ContentCoding?v=4.0&id=10762
-  scheme: CESSDA
-  subject: Content coding
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Transcription?v=4.0&id=10745
-  scheme: CESSDA
-  subject: Transcription
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_CompilationSynthesis?v=4.0&id=10781
-  scheme: CESSDA
-  subject: Compilation/Synthesis
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Summary?v=4.0&id=10769
-  scheme: CESSDA
-  subject: Summary
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Aggregation?v=4.0&id=10755
-  scheme: CESSDA
-  subject: Aggregation
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Simulation?v=4.0&id=10782
-  scheme: CESSDA
-  subject: Simulation
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_MeasurementsAndTests?v=4.0&id=10780
-  scheme: CESSDA
-  subject: Measurements and tests
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Educational?v=4.0&id=10758
-  scheme: CESSDA
-  subject: Educational measurements and tests
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Physical?v=4.0&id=10752
-  scheme: CESSDA
-  subject: Physical measurements and tests
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Psychological?v=4.0&id=10759
-  scheme: CESSDA
-  subject: Psychological measurements and tests
-- id: https://vocabularies.cessda.eu/vocabulary/ModeOfCollection_Other?v=4.0&id=10765
-  scheme: CESSDA
-  subject: Other
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Demography?v=4.2&id=14172
-  scheme: CESSDA
-  subject: DEMOGRAPHY (POPULATION, VITAL STATISTICS, AND CENSUSES)
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Censuses?v=4.2&id=14162
-  scheme: CESSDA
-  subject: Censuses
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Migration?v=4.2&id=14161
-  scheme: CESSDA
-  subject: Migration
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_MorbidityAndMortality?v=4.2&id=14130
-  scheme: CESSDA
-  subject: Morbidity and mortality
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Economics?v=4.2&id=14168
-  scheme: CESSDA
-  subject: ECONOMICS
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_ConsumptionAndConsumerBehaviour?v=4.2&id=14224
-  scheme: CESSDA
-  subject: Consumption and consumer behaviour
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_EconomicConditionsAndIndicators?v=4.2&id=14194
-  scheme: CESSDA
-  subject: Economic conditions and indicators
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_EconomicPolicyPublicExpenditureAndRevenue?v=4.2&id=14166
-  scheme: CESSDA
-  subject: Economic policy,  public expenditure and revenue
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_EconomicSystemsAndDevelopment?v=4.2&id=14143
-  scheme: CESSDA
-  subject: Economic systems and development
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_IncomePropertyAndInvestmentSaving?v=4.2&id=14175
-  scheme: CESSDA
-  subject: Income, property and investment/saving
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Education?v=4.2&id=14207
-  scheme: CESSDA
-  subject: EDUCATION
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_CompulsoryAndPreschoolEducation?v=4.2&id=14200
-  scheme: CESSDA
-  subject: Compulsory and pre-school education
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_EducationalPolicy?v=4.2&id=14212
-  scheme: CESSDA
-  subject: Educational policy
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_HigherAndFurtherEducation?v=4.2&id=14149
-  scheme: CESSDA
-  subject: Higher and further education
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_LifelongContinuingEducation?v=4.2&id=14204
-  scheme: CESSDA
-  subject: Life-long/continuing education
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_VocationalEducationAndTraining?v=4.2&id=14203
-  scheme: CESSDA
-  subject: Vocational education and training
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Health?v=4.2&id=14210
-  scheme: CESSDA
-  subject: HEALTH
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_DietAndNutrition?v=4.2&id=14215
-  scheme: CESSDA
-  subject: Diet and nutrition
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_DrugAbuseAlcoholAndSmoking?v=4.2&id=14223
-  scheme: CESSDA
-  subject: Drug abuse, alcohol and smoking
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_GeneralHealthAndWellbeing?v=4.2&id=14157
-  scheme: CESSDA
-  subject: General health and well-being
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_HealthCareServicesAndPolicies?v=4.2&id=14214
-  scheme: CESSDA
-  subject: Health care services and policies
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_MedicationAndTreatment?v=4.2&id=14146
-  scheme: CESSDA
-  subject: Medication and treatment
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_OccupationalHealth?v=4.2&id=14153
-  scheme: CESSDA
-  subject: Occupational health
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_PhysicalFitnessAndExercise?v=4.2&id=14186
-  scheme: CESSDA
-  subject: Physical fitness and exercise
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_PublicHealth?v=4.2&id=14201
-  scheme: CESSDA
-  subject: Public health
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_ReproductiveHealth?v=4.2&id=14169
-  scheme: CESSDA
-  subject: Reproductive health
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_SignsAndSymptomsPathologicalConditions?v=4.2&id=14131
-  scheme: CESSDA
-  subject: Signs and symptoms; pathological conditions
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_SpecificDiseasesDisordersAndMedicalConditions?v=4.2&id=14165
-  scheme: CESSDA
-  subject: Specific diseases, disorders and medical conditions
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_WoundsAndInjuries?v=4.2&id=14198
-  scheme: CESSDA
-  subject: Wounds and injuries
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_History?v=4.2&id=14208
-  scheme: CESSDA
-  subject: HISTORY
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_HousingAndLandUse?v=4.2&id=14139
-  scheme: CESSDA
-  subject: HOUSING AND LAND USE
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Housing?v=4.2&id=14213
-  scheme: CESSDA
-  subject: Housing
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_LandUseAndPlanning?v=4.2&id=14145
-  scheme: CESSDA
-  subject: Land use and planning
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_LabourAndEmployment?v=4.2&id=14138
-  scheme: CESSDA
-  subject: LABOUR AND EMPLOYMENT
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_EmployeeTraining?v=4.2&id=14174
-  scheme: CESSDA
-  subject: Employee training
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Employment?v=4.2&id=14211
-  scheme: CESSDA
-  subject: Employment
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_LabourAndEmploymentPolicy?v=4.2&id=14154
-  scheme: CESSDA
-  subject: Labour and employment policy
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_LabourRelationsConflict?v=4.2&id=14185
-  scheme: CESSDA
-  subject: Labour relations/conflict
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Retirement?v=4.2&id=14156
-  scheme: CESSDA
-  subject: Retirement
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Unemployment?v=4.2&id=14160
-  scheme: CESSDA
-  subject: Unemployment
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_WorkingConditions?v=4.2&id=14221
-  scheme: CESSDA
-  subject: Working conditions
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_LawCrimeAndLegalSystems?v=4.2&id=14220
-  scheme: CESSDA
-  subject: LAW, CRIME AND LEGAL SYSTEMS
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_CrimeAndLawEnforcement?v=4.2&id=14171
-  scheme: CESSDA
-  subject: Crime and law enforcement
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_LegislationAndLegalSystems?v=4.2&id=14142
-  scheme: CESSDA
-  subject: Legislation and legal systems
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_MediaCommunicationAndLanguage?v=4.2&id=14137
-  scheme: CESSDA
-  subject: MEDIA, COMMUNICATION AND LANGUAGE
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_InformationSociety?v=4.2&id=14206
-  scheme: CESSDA
-  subject: Information society
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_LanguageAndLinguistics?v=4.2&id=14180
-  scheme: CESSDA
-  subject: Language and linguistics
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Media?v=4.2&id=14187
-  scheme: CESSDA
-  subject: Media
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_PublicRelations?v=4.2&id=14141
-  scheme: CESSDA
-  subject: Public relations
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_NaturalEnvironment?v=4.2&id=14183
-  scheme: CESSDA
-  subject: NATURAL ENVIRONMENT
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_EnergyAndNaturalResources?v=4.2&id=14217
-  scheme: CESSDA
-  subject: Energy and natural resources
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_EnvironmentAndConservation?v=4.2&id=14189
-  scheme: CESSDA
-  subject: Environment and conservation
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_NaturalLandscapes?v=4.2&id=14173
-  scheme: CESSDA
-  subject: Natural landscapes
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_PlantsAndAnimals?v=4.2&id=14199
-  scheme: CESSDA
-  subject: Plants and animals
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Politics?v=4.2&id=14144
-  scheme: CESSDA
-  subject: POLITICS
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_ConflictSecurityAndPeace?v=4.2&id=14195
-  scheme: CESSDA
-  subject: Conflict, security and peace
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Elections?v=4.2&id=14222
-  scheme: CESSDA
-  subject: Elections
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_GovernmentPoliticalSystemsAndOrganisations?v=4.2&id=14170
-  scheme: CESSDA
-  subject: Government, political systems and organisations
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_InternationalPoliticsAndOrganisations?v=4.2&id=14178
-  scheme: CESSDA
-  subject: International politics and organisations
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_PoliticalBehaviourAndAttitudes?v=4.2&id=14179
-  scheme: CESSDA
-  subject: Political behaviour and attitudes
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_PoliticalIdeology?v=4.2&id=14191
-  scheme: CESSDA
-  subject: Political ideology
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Psychology?v=4.2&id=14158
-  scheme: CESSDA
-  subject: PSYCHOLOGY
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_ScienceAndTechnology?v=4.2&id=14151
-  scheme: CESSDA
-  subject: SCIENCE AND TECHNOLOGY
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Biotechnology?v=4.2&id=14188
-  scheme: CESSDA
-  subject: Biotechnology
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_InformationTechnology?v=4.2&id=14150
-  scheme: CESSDA
-  subject: Information technology
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_SocialStratificationAndGroupings?v=4.2&id=14135
-  scheme: CESSDA
-  subject: SOCIAL STRATIFICATION AND GROUPINGS
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Children?v=4.2&id=14147
-  scheme: CESSDA
-  subject: Children
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Elderly?v=4.2&id=14177
-  scheme: CESSDA
-  subject: Elderly
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_ElitesAndLeadership?v=4.2&id=14202
-  scheme: CESSDA
-  subject: Elites and leadership
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_EqualityInequalityAndSocialExclusion?v=4.2&id=14134
-  scheme: CESSDA
-  subject: Equality, inequality and social exclusion
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_FamilyLifeAndMarriage?v=4.2&id=14163
-  scheme: CESSDA
-  subject: Family life and marriage
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_GenderAndGenderRoles?v=4.2&id=14176
-  scheme: CESSDA
-  subject: Gender and gender roles
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Minorities?v=4.2&id=14218
-  scheme: CESSDA
-  subject: Minorities
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_SocialAndOccupationalMobility?v=4.2&id=14132
-  scheme: CESSDA
-  subject: Social and occupational mobility
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Youth?v=4.2&id=14152
-  scheme: CESSDA
-  subject: Youth
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_SocialWelfarePolicyAndSystems?v=4.2&id=14193
-  scheme: CESSDA
-  subject: SOCIAL WELFARE POLICY AND SYSTEMS
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_SocialWelfarePolicy?v=4.2&id=14148
-  scheme: CESSDA
-  subject: Social welfare policy
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_SocialWelfareSystemsStructures?v=4.2&id=14181
-  scheme: CESSDA
-  subject: Social welfare systems/structures
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_SpecificSocialServicesUseAndAvailability?v=4.2&id=14196
-  scheme: CESSDA
-  subject: 'Specific social services: use and availability'
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_SocietyAndCulture?v=4.2&id=14219
-  scheme: CESSDA
-  subject: SOCIETY AND CULTURE
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_CommunityUrbanAndRuralLife?v=4.2&id=14209
-  scheme: CESSDA
-  subject: Community, urban and rural life
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_CulturalActivitiesAndParticipation?v=4.2&id=14140
-  scheme: CESSDA
-  subject: Cultural activities and participation
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_CulturalAndNationalIdentity?v=4.2&id=14155
-  scheme: CESSDA
-  subject: Cultural and national identity
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_LeisureTourismAndSport?v=4.2&id=14197
-  scheme: CESSDA
-  subject: Leisure, tourism and sport
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_ReligionAndValues?v=4.2&id=14184
-  scheme: CESSDA
-  subject: Religion and values
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_SocialBehaviourAndAttitudes?v=4.2&id=14205
-  scheme: CESSDA
-  subject: Social behaviour and attitudes
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_SocialChange?v=4.2&id=14136
-  scheme: CESSDA
-  subject: Social change
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_SocialConditionsAndIndicators?v=4.2&id=14192
-  scheme: CESSDA
-  subject: Social conditions and indicators
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_TimeUse?v=4.2&id=14190
-  scheme: CESSDA
-  subject: Time use
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_TradeIndustryAndMarkets?v=4.2&id=14167
-  scheme: CESSDA
-  subject: TRADE, INDUSTRY AND MARKETS
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_AgricultureAndRuralIndustry?v=4.2&id=14133
-  scheme: CESSDA
-  subject: Agriculture and rural industry
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_BusinessIndustrialManagementAndOrganisation?v=4.2&id=14164
-  scheme: CESSDA
-  subject: Business/industrial management and organisation
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_ForeignTrade?v=4.2&id=14182
-  scheme: CESSDA
-  subject: Foreign trade
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_TransportAndTravel?v=4.2&id=14159
-  scheme: CESSDA
-  subject: TRANSPORT AND TRAVEL
-- id: https://vocabularies.cessda.eu/vocabulary/TopicClassification_Other?v=4.2&id=14216
-  scheme: CESSDA
-  subject: OTHER
+  subject: IsBasedOn.DifferentResponseSchema
