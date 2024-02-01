@@ -79,9 +79,10 @@ make run
 make install-package-tools # this will install twine (install-package-tools-pipenv if you use pipenv)
 make package # this will zip the package into dist dir
 make package-check # verify if the package pass twine checks
-twine upload -u <USERNAME> -p <PASSWORD> --repository-url https://test.pypi.org/legacy/ dist/* --verbose
-# or:
-twine upload --repository PROJECT_NAME
+
+export TWINE_USERNAME=__token__
+export TWINE_PASSWORD=pypi-<YOUR_TOKEN>
+twine upload dist/*
 ```
 
 ### Debug Log Examples
