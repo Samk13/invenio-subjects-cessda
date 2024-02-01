@@ -2,8 +2,10 @@
 
 ## Overview
 
+[CESSDA](https://www.cessda.eu/About) stands for Consortium of European Social Science Data Archives and ERIC stands for European Research Infrastructure Consortium.
+
+CESSDA provides large-scale, integrated and sustainable data services to the social sciences. It brings together social science data archives across Europe, with the aim of promoting the results of social science research and supporting national and international research and cooperation.
 `invenio-subjects-cessda` is a Python package designed to integrate the CESSDA Vocabulary with [InvenioRDM](https://inveniosoftware.org/products/rdm/)
-It enables indexing and retrieval of STI Repository materials using CESSDA subject terms.
 
 ## Installation
 
@@ -73,21 +75,10 @@ Check the version date in this README. To fetch the latest CESSDA versions, run:
 make run
 ```
 
-## Upload to pypi
+in [config.py](invenio_subjects_cessda/config.py) you have the ability to modify the preferred language and specify the directory for saving vocabularies.
+The endpoint `fullListOfpublishedVocabVersions` includes a full list of all published vocabulary versions enabling you to compare them with the versions that have been installed.
 
-```bash
-make install-package-tools # this will install twine (install-package-tools-pipenv if you use pipenv)
-make package # this will zip the package into dist dir
-make package-check # verify if the package pass twine checks
-
-export TWINE_USERNAME=__token__
-export TWINE_PASSWORD=pypi-<YOUR_TOKEN>
-twine upload dist/*
-```
-
-### Debug Log Examples
-
-The vocabularies versions That is been included are the following:
+The following vocabulary versions are included in this release. Remember to update this list during your next upgrade.
 
 ```console
 https://vocabularies.cessda.eu/v2/codes/CdcPublisherNames/6.0.0/en
@@ -121,4 +112,16 @@ https://vocabularies.cessda.eu/v2/codes/TypeOfNote/1.1.0/en
 https://vocabularies.cessda.eu/v2/codes/TypeOfTelephone/1.0.0/en
 https://vocabularies.cessda.eu/v2/codes/TypeOfTranslationMethod/1.0.0/en
 https://vocabularies.cessda.eu/v2/codes/Variables-Relations/1.0.0/en
+```
+
+## Upload to pypi
+
+```bash
+make install-package-tools # this will install twine (install-package-tools-pipenv if you use pipenv)
+make package # this will zip the package into dist dir
+make package-check # verify if the package pass twine checks
+
+export TWINE_USERNAME=__token__
+export TWINE_PASSWORD=pypi-<YOUR_TOKEN>
+twine upload dist/*
 ```
