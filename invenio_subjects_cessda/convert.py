@@ -15,6 +15,7 @@ from yaml import dump
 from invenio_subjects_cessda.schemas import cessda_schema
 from invenio_subjects_cessda.utils import logger
 
+
 def sort_vocabularies(data):
     """Sort vocabularies by 'id'."""
     logger.debug("Sorting ...")

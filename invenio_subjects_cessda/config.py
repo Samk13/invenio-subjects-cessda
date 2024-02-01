@@ -16,7 +16,7 @@ en_vocabularies_output_path = (
 """CESSDA Vocabularies path destination"""
 
 
-vocabularies_published = [
+fullListOfpublishedVocabVersions = [
     {
         "name": "all vocabularies versions and languages",
         "endpoint": "https://vocabularies.cessda.eu/v2/vocabularies-published",

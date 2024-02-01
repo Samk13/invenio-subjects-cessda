@@ -1,39 +1,44 @@
 # invenio-subjects-cessda
 
- CESSDA Vocabulary for [InvenioRDM](https://inveniosoftware.org/products/rdm/)
-This package is inspired by [invenio-subjects-mesh](https://github.com/galterlibrary/invenio-subjects-mesh)
-Install this extension to get CESSDA Voc. subject terms used to index and retrieve materials in the STI Repository into your instance.
+## Overview
+
+`invenio-subjects-cessda` is a Python package designed to integrate the CESSDA Vocabulary with [InvenioRDM](https://inveniosoftware.org/products/rdm/)
+It enables indexing and retrieval of STI Repository materials using CESSDA subject terms.
 
 ## Installation
 
+### Prerequisites
+
+Active virtual environment of your InvenioRDM instance.
 From your instance active venv:
 
-```console
+### Steps
+
+1- Install the package:
+
+```bash
 pip install invenio-subjects-cessda
+
 ```
 
-in your invenio instance run:
+2- Run the following commands in your InvenioRDM instance:
 
 ```console
 invenio rdm-records fixtures
 invenio-cli run
 ```
 
-### Versions
+### Versioning
 
-This repository follows [SemVer versioning](https://semver.org/):
+This project adheres to [SemVer versioning](https://semver.org/):
 
-## Usage
+## Usage Guide
 
-There are 2 types of users for this package. Maintainers of the package and instance administrators.
+### For Instance Administrators
 
-### Instance administrators
-
-For instance administrators, after you have installed the extension as per the steps above,
-please read [Invenio subjects documentation](https://inveniordm.docs.cern.ch/customize/vocabularies/subjects/)
-
-To implement CESSDA in your instance:
-make sure you activate your invenio instance venv, then:
+After installation:
+1- Refer to [Invenio subjects documentation](https://inveniordm.docs.cern.ch/customize/vocabularies/subjects/)
+2- Run the following commands:
 
 ```bash
 pip install invenio-subjects-cessda
@@ -41,47 +46,33 @@ invenio rdm-records fixtures
 invenio-cli run
 ```
 
-at this point you are ready to go.
+Your instance is now ready to use the CESSDA vocabulary.
 
-## Maintainers
+## For Package Maintainers
 
-### Setup dev env
-
-after cloning the repo:
+Setting Up Development Environment
+After cloning the repository:
 
 ```bash
+# Run make install to install dependencies.
 make install
-make test
-```
-
-### Run tests
-
-```bash
+# Use make test to run tests.
 make test
 ```
 
 ### Debugging
 
-To enable detailed logging for debugging purposes in `Makefile` with `run` command, set the DEBUGGER environment variable to True.
+Modify `Makefile` to set the DEBUGGER environment variable to False for less detailed logging.
 
-> When doing tests you will get a warning from [black formatter](https://github.com/shopkeep/pytest-black/issues/55), should bump pytest-black version when it's done
+### Updating CESSDA Versions
 
-### Fetch new CESSDA versions
-
-Last updated in 31/10/2022
-Inspect version in the [config.py](invenio_subjects_cessda/config.py) and update the version in desired endpoint link.
-
-- delete file [cessda_voc](invenio_subjects_cessda/vocabularies/cessda_voc.yaml)
-
-> Notice that if you don't delete the old file it will append to it
-
-then run:
+Last updated: `2024-02-01`
+Check the version date in this README. To fetch the latest CESSDA versions, run:
 
 ```bash
 make run
 ```
 
-This will generate the new yaml file that can be used in your instance.
 
 ## Upload to pypi
 
@@ -90,4 +81,42 @@ make install-package-tools # this will install twine (install-package-tools-pipe
 make package # this will zip the package into dist dir
 make package-check # verify if the package pass twine checks
 twine upload -u <USERNAME> -p <PASSWORD> --repository-url https://test.pypi.org/legacy/ dist/* --verbose
+```
+
+#### Debug Log Examples
+
+The package logs requests made to various CESSDA vocabulary URLs, as shown below:
+
+```console
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/CdcPublisherNames/6.0.0/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/CessdaPersistentIdentifierTypes/1.0.0/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/CountryNamesAndCodes/1.0.0/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/TopicClassification/4.2.2/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/AggregationMethod/1.1.2/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/AnalysisUnit/2.1.3/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/CharacterSet/1.0.0/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/CommonalityType/1.0.2/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/ContributorRole/1.0.2/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/DataSourceType/1.0.2/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/DataType/1.1.2/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/DateType/1.1.2/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/GeneralDataFormat/2.0.3/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/LanguageProficiency/1.0.2/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/LifecycleEventType/1.0.2/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/ModeOfCollection/4.0.3/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/NumericType/1.1.0/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/ResponseUnit/1.0.2/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/SamplingProcedure/1.1.4/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/SoftwarePackage/1.0.0/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/SummaryStatisticType/2.1.2/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/TimeMethod/1.2.3/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/TimeZone/1.0.0/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/TypeOfAddress/1.1.0/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/TypeOfConceptGroup/1.0.2/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/TypeOfFrequency/1.0.0/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/TypeOfInstrument/1.1.2/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/TypeOfNote/1.1.0/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/TypeOfTelephone/1.0.0/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/TypeOfTranslationMethod/1.0.0/en'
+DEBUG:invenio_subjects_cessda.utils:Making request to 'https://vocabularies.cessda.eu/v2/codes/Variables-Relations/1.0.0/en'
 ```
