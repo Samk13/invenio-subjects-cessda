@@ -10,7 +10,7 @@ from pathlib import Path
 languages = ["en(SL)"]
 """Languages to fetch"""
 
-en_vocabularies_path = (
+en_vocabularies_output_path = (
     Path.cwd() / "invenio_subjects_cessda" / "vocabularies" / "cessda_voc.yaml"
 )
 """CESSDA Vocabularies path destination"""
