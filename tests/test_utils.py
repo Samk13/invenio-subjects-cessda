@@ -22,6 +22,6 @@ def test_fix_url():
 
 
 def test_get_latest_versions():
-    """Test get latest versions for api URLs"""
+    """Test get latest versions for api URLs."""
     result = get_latest_versions(vocabularies_published_versions_input, languages)
     assert result == vocabularies_published_expected_output
