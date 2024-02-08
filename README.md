@@ -1,5 +1,7 @@
 # invenio-subjects-cessda
 
+![Tests](https://github.com/Samk13/invenio-subjects-cessda/actions/workflows/tests.yml/badge.svg)
+
 ## Overview
 
 [CESSDA](https://www.cessda.eu/About) stands for Consortium of European Social Science Data Archives and ERIC stands for European Research Infrastructure Consortium.
