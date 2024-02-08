@@ -1,6 +1,6 @@
 # invenio-subjects-cessda
 
-![Tests](https://github.com/Samk13/invenio-subjects-cessda/actions/workflows/tests.yml/badge.svg)
+![Tests](https://github.com/Samk13/invenio-subjects-cessda/actions/workflows/tests.yaml/badge.svg)
 
 ## Overview
 
