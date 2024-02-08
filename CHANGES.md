@@ -1,14 +1,26 @@
 # Changes
 
+Version 1.1.2
+
+- Add github actions for publishing to pypi
+- Add github actions for testing
+- add test badge to readme
+- Remove requirements.txt
+
 Version 1.1.0
 
-- Update CESSDA vocabularies to 2024-02-01
+- update readme
+- fix version number
+
+Version 1.1.0
+
 - Introduce Auto fetch new versions for all vocabularies
-- Refactor convert functionality and add sorting
+- Bump update dependencies to their latest versions
 - Introduce debugging option to 'make run' command
+- Refactor convert functionality and add sorting
+- Update CESSDA vocabularies to 2024-02-01
 - Add error handling to data fetching
 - Bump requirements.txt
-- Bump update dependencies to their latest versions
 
 Version 1.0.0
 

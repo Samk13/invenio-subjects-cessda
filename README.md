@@ -118,6 +118,15 @@ https://vocabularies.cessda.eu/v2/codes/Variables-Relations/1.0.0/en
 
 ## Upload to pypi
 
+Publishing will be done automatically by GitHub actions when a new tag is created.
+
+```bash
+git tag vX.Y.Z
+git push origin master vX.Y.Z
+```
+
+## manually upload to pypi
+
 ```bash
 make install-package-tools # this will install twine (install-package-tools-pipenv if you use pipenv)
 make package # this will zip the package into dist dir
