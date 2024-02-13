@@ -2,6 +2,7 @@
 
 ![Tests](https://github.com/Samk13/invenio-subjects-cessda/actions/workflows/tests.yaml/badge.svg)
 ![Pypi](https://img.shields.io/pypi/v/invenio-subjects-cessda.svg)
+[![Downloads](https://static.pepy.tech/badge/invenio-subjects-cessda)](https://pepy.tech/project/invenio-subjects-cessda)
 
 ## Overview
 
