@@ -4,4 +4,6 @@
 # invenio-subjects-CESSDA is free software, you can redistribute it and/or
 # modify it under the terms of the MIT License; see LICENSE file details.
 
-from .fixtures import *  # noqa: F403,F401
+from .fixtures import create_json_path, create_yaml_path
+
+__all__ = ["create_json_path", "create_yaml_path"]
