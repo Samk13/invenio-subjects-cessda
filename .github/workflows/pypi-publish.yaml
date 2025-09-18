@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+#
 # Copyright (C) 2022-2025 KTH Royal Institute of Technology.
 #
 # invenio-subjects-cessda is free software, you can redistribute it and/or
@@ -15,9 +17,10 @@ on:
         description: 'Reason'
         required: false
         default: 'Manual trigger'
+
 jobs:
-  pypi-publish:
-    name: Upload release to PyPI
+  publish:
+    name: Build and publish release
     runs-on: ubuntu-latest
     environment:
       name: pypi
@@ -25,13 +28,21 @@ jobs:
     permissions:
       id-token: write
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-    - name: Install dependencies
-      run: |
-        pip install twine
-    - name: Run package build
-      run: |
-        python setup.py sdist
-    - name: Publish package to PyPI
-      uses: pypa/gh-action-pypi-publish@release/v1
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Install uv and Python
+        uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.8.17"
+          python-version: "3.12"
+          enable-cache: true
+
+      - name: Build package
+        run: rm -rf dist && uvx --from build pyproject-build
+
+      - name: Check package metadata
+        run: uvx --from twine twine check dist/*
+
+      - name: Publish package to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1

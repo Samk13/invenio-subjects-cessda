@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 #
 # Copyright (C) 2022 KTH Royal Institute of Technology Sweden
 #
@@ -6,7 +5,6 @@
 # modify it under the terms of the MIT License; see LICENSE file details.
 
 """Test subjects extension conforms to subjects extension interface."""
-
 
 import pkg_resources
 
