@@ -563,27 +563,25 @@ wheels = [
 [[package]]
 name = "invenio-subjects-cessda"
 source = { editable = "." }
-dependencies = [
-    { name = "aiohttp" },
-    { name = "click", version = "8.1.8", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.10'" },
-    { name = "click", version = "8.2.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.10'" },
-    { name = "pyyaml" },
-]
 
 [package.optional-dependencies]
 tests = [
+    { name = "aiohttp" },
+    { name = "click", version = "8.1.8", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version < '3.10'" },
+    { name = "click", version = "8.2.1", source = { registry = "https://pypi.org/simple" }, marker = "python_full_version >= '3.10'" },
     { name = "pytest" },
     { name = "pytest-invenio" },
+    { name = "pyyaml" },
     { name = "ruff" },
 ]
 
 [package.metadata]
 requires-dist = [
-    { name = "aiohttp", specifier = ">=3.9.0" },
-    { name = "click", specifier = ">=8.1.7" },
+    { name = "aiohttp", marker = "extra == 'tests'", specifier = ">=3.9.0" },
+    { name = "click", marker = "extra == 'tests'", specifier = ">=8.1.7" },
     { name = "pytest", marker = "extra == 'tests'", specifier = ">=7.0.0" },
     { name = "pytest-invenio", marker = "extra == 'tests'", specifier = ">=2.1.7" },
-    { name = "pyyaml", specifier = ">=6.0.1" },
+    { name = "pyyaml", marker = "extra == 'tests'", specifier = ">=6.0.1" },
     { name = "ruff", marker = "extra == 'tests'", specifier = ">=0.2.0" },
 ]
 provides-extras = ["tests"]

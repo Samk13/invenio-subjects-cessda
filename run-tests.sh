@@ -10,8 +10,6 @@ set -o errexit
 set -o nounset
 set -o pipefail
 
-pytest_args=("$@")
-
 echo "Validating packaging metadata with an isolated build..."
 tmp_build_dir=$(mktemp -d)
 cleanup() {
@@ -22,13 +20,9 @@ uvx --from build pyproject-build --sdist --wheel --outdir "${tmp_build_dir}"
 trap - EXIT
 cleanup
 
+echo "Running pytest..."
+uv run python -m pytest
 echo "Running code quality checks with Ruff..."
 uv run python -m ruff check .
 uv run python -m ruff format --check .
 
-echo "Running pytest..."
-if ((${#pytest_args[@]})); then
-    uv run python -m pytest "${pytest_args[@]}"
-else
-    uv run python -m pytest
-fi

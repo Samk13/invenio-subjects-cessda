@@ -7,12 +7,17 @@
 from invenio_subjects_cessda.utils import fix_url
 
 
-def cessda_schema(json_row):
-    """Return cessda voc schema."""
-    return [
-        {
-            "id": fix_url(json_row[1]),
-            "scheme": "CESSDA",
-            "subject": f"{json_row[1]['title'].strip()}",
-        }
-    ]
+def cessda_schema(entry):
+    """Return a normalized CESSDA vocabulary record."""
+    if not entry:
+        return None
+
+    subject = entry.get("title")
+    if not subject:
+        return None
+
+    return {
+        "id": fix_url(entry),
+        "scheme": "CESSDA",
+        "subject": subject.strip(),
+    }

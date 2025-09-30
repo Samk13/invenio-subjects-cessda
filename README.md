@@ -73,51 +73,42 @@ Modify `Makefile` to set the DEBUGGER environment variable to False for less det
 
 ### Updating CESSDA Versions
 
-Last updated: `2024-02-01`
-Check the version date in this README. To fetch the latest CESSDA versions, run:
+To fetch the latest CESSDA vocabularies, run:
 
 ```bash
 make run
 ```
 
-in [config.py](invenio_subjects_cessda/config.py) you have the ability to modify the preferred language and specify the directory for saving vocabularies.
-The endpoint `fullListOfpublishedVocabVersions` includes a full list of all published vocabulary versions enabling you to compare them with the versions that have been installed.
+You can change the preferred languages and output locations in
+[config.py](invenio_subjects_cessda/config.py). The command downloads all
+vocabularies, writes the canonical list to
+`invenio_subjects_cessda/vocabularies/cessda_voc.yaml`, and persists a delta
+report alongside it. Delta filenames now include the UTC timestamp of the run
+(`cessda_voc_delta_YYYYMMDDTHH_MMSS.json`) so each execution leaves an audit
+trail you can revisit for curation.
 
-The following vocabulary versions are included in this release. Remember to update this list during your next upgrade.
+Review the delta report after each update to see which vocabularies were added,
+changed, or missing from the latest upstream catalogue. When entries disappear
+from the fetch but are still retained in the YAML, they are reported under the
+`missing_from_latest` key so it is clear that the export still contains them. If
+you run the synchronisation with removals enabled, the report switches back to
+the traditional `removed` section.
 
-```console
-https://vocabularies.cessda.eu/v2/codes/CdcPublisherNames/6.0.0/en
-https://vocabularies.cessda.eu/v2/codes/CessdaPersistentIdentifierTypes/1.0.0/en
-https://vocabularies.cessda.eu/v2/codes/CountryNamesAndCodes/1.0.0/en
-https://vocabularies.cessda.eu/v2/codes/TopicClassification/4.2.2/en
-https://vocabularies.cessda.eu/v2/codes/AggregationMethod/1.1.2/en
-https://vocabularies.cessda.eu/v2/codes/AnalysisUnit/2.1.3/en
-https://vocabularies.cessda.eu/v2/codes/CharacterSet/1.0.0/en
-https://vocabularies.cessda.eu/v2/codes/CommonalityType/1.0.2/en
-https://vocabularies.cessda.eu/v2/codes/ContributorRole/1.0.2/en
-https://vocabularies.cessda.eu/v2/codes/DataSourceType/1.0.2/en
-https://vocabularies.cessda.eu/v2/codes/DataType/1.1.2/en
-https://vocabularies.cessda.eu/v2/codes/DateType/1.1.2/en
-https://vocabularies.cessda.eu/v2/codes/GeneralDataFormat/2.0.3/en
-https://vocabularies.cessda.eu/v2/codes/LanguageProficiency/1.0.2/en
-https://vocabularies.cessda.eu/v2/codes/LifecycleEventType/1.0.2/en
-https://vocabularies.cessda.eu/v2/codes/ModeOfCollection/4.0.3/en
-https://vocabularies.cessda.eu/v2/codes/NumericType/1.1.0/en
-https://vocabularies.cessda.eu/v2/codes/ResponseUnit/1.0.2/en
-https://vocabularies.cessda.eu/v2/codes/SamplingProcedure/1.1.4/en
-https://vocabularies.cessda.eu/v2/codes/SoftwarePackage/1.0.0/en
-https://vocabularies.cessda.eu/v2/codes/SummaryStatisticType/2.1.2/en
-https://vocabularies.cessda.eu/v2/codes/TimeMethod/1.2.3/en
-https://vocabularies.cessda.eu/v2/codes/TimeZone/1.0.0/en
-https://vocabularies.cessda.eu/v2/codes/TypeOfAddress/1.1.0/en
-https://vocabularies.cessda.eu/v2/codes/TypeOfConceptGroup/1.0.2/en
-https://vocabularies.cessda.eu/v2/codes/TypeOfFrequency/1.0.0/en
-https://vocabularies.cessda.eu/v2/codes/TypeOfInstrument/1.1.2/en
-https://vocabularies.cessda.eu/v2/codes/TypeOfNote/1.1.0/en
-https://vocabularies.cessda.eu/v2/codes/TypeOfTelephone/1.0.0/en
-https://vocabularies.cessda.eu/v2/codes/TypeOfTranslationMethod/1.0.0/en
-https://vocabularies.cessda.eu/v2/codes/Variables-Relations/1.0.0/en
+Existing subjects keep their original identifiers so Invenio instances will not
+create duplicate records when the upstream catalogue republishes entries with
+new IDs.
+
+To explicitly prune removed vocabularies from the YAML, call the synchronisation
+script with the `--drop-removed-vocabs` flag:
+
+```bash
+make run-force-delete
+# or
+python main.py --drop-removed-vocabs
 ```
+
+Without the flag, legacy entries remain in the export for backward
+compatibility, while the delta report records that they are missing upstream.
 
 ## Upload to pypi
 
@@ -126,16 +117,4 @@ Publishing will be done automatically by GitHub actions when a new tag is create
 ```bash
 git tag vX.Y.Z
 git push origin master vX.Y.Z
-```
-
-## manually upload to pypi
-
-```bash
-make install-package-tools # this will install twine (install-package-tools-pipenv if you use pipenv)
-make package # this will zip the package into dist dir
-make package-check # verify if the package pass twine checks
-
-export TWINE_USERNAME=__token__
-export TWINE_PASSWORD=pypi-<YOUR_TOKEN>
-twine upload dist/*
 ```
