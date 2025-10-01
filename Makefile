@@ -1,34 +1,32 @@
-.DEFAULT_GOAL=ls
+.DEFAULT_GOAL:=help
 
-ls: # List available commands
-	@grep '^[^#[:space:]].*:' Makefile
+help: ## List available commands
+	@grep '^[^#[:space:]].*:' Makefile | sort
 
-freeze: # Show installed dependencies
-	@pip freeze
+install: ## Install project and test dependencies
+	@uv sync --extra tests
 
-format: # Black format and isort imports
-	@black . && isort .
+freeze: ## Show installed dependencies
+	@uv pip freeze
 
-install: # Install py dependencies
-	@pip install -e ".[tests]"
+format: ## Format code with Ruff
+	@uv run ruff format .
 
-install-pipenv: # Install py dependencies using pipenv
-	@pipenv install -e ".[tests]"
+lint: ## Lint code with Ruff
+	@uv run ruff check .
 
-run: # Fetch data, convert it to yaml, and then save it in invenio_subjects_cessda/vocabularies/cessda_voc.yaml
-	@DEBUGGER=True python main.py
+run: ## Fetch and convert the latest CESSDA vocabularies
+	@uv run python main.py
 
-test: # Run tests
-	@bash run-tests.sh
+package: ## Build source and wheel distributions
+	@rm -rf dist
+	@uvx --from build pyproject-build
 
-install-package-tools-pipenv: # Install twine using pipenv
-	@pipenv install twine
+package-check: ## Validate built distributions with Twine
+	@uvx --from twine twine check dist/*
 
-install-package-tools: # Install twine
-	@pip install twine
+clean: ## Remove build artifacts
+	@rm -rf dist build .pytest_cache *.egg-info
 
-package-check: # Check package if it pass pypi tests
-	@twine check dist/*
-
-package: # Package to tar.gz file for uploading to pypi
-	@python setup.py sdist
+test: ## Run packaging checks, linters, and pytest suite
+	@uv run ./run-tests.sh

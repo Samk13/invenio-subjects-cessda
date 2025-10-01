@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 #
 # Copyright (C) 2022-2024 KTH Royal Institute of Technology Sweden.
 #
@@ -73,7 +72,6 @@ def get_latest_versions(data, languages):
     """
     result = []
     for item in data:
-
         logger.debug("Processing item: %s", item["name"])
 
         for provider, categories in item["data"].items():

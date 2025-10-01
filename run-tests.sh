@@ -1,23 +1,34 @@
+#!/usr/bin/env bash
 # -*- coding: utf-8 -*-
 #
-# Copyright (C) 2022-2024 KTH Royal Institute of Technology Sweden.
+# Copyright (C) 2022-2025 KTH Royal Institute of Technology Sweden.
 #
 # invenio-subjects-CESSDA is free software, you can redistribute it and/or
 # modify it under the terms of the MIT License; see LICENSE file details.
 
-# Quit on errors
 set -o errexit
-
-# Quit on unbound symbols
 set -o nounset
+set -o pipefail
 
-python -m check_manifest --no-build-isolation
-# Note: expansion of pytest_args looks like below to not cause an unbound
-# variable error when 1) "nounset" and 2) the array is empty.
+pytest_args=("$@")
 
-# see https://urllib3.readthedocs.io/en/latest/v2-migration-guide.html
-# export PYTHONWARNINGS="default"
+echo "Validating packaging metadata with an isolated build..."
+tmp_build_dir=$(mktemp -d)
+cleanup() {
+    rm -rf "${tmp_build_dir}"
+}
+trap cleanup EXIT
+uvx --from build pyproject-build --sdist --wheel --outdir "${tmp_build_dir}"
+trap - EXIT
+cleanup
 
-python -m pytest $@
-tests_exit_code=$?
-exit "$tests_exit_code"
+echo "Running code quality checks with Ruff..."
+uv run python -m ruff check .
+uv run python -m ruff format --check .
+
+echo "Running pytest..."
+if ((${#pytest_args[@]})); then
+    uv run python -m pytest "${pytest_args[@]}"
+else
+    uv run python -m pytest
+fi
