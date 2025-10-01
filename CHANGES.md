@@ -1,5 +1,18 @@
 # Changes
 
+Version 2.0.0
+
+- **BREAKING**: Migrate from Pipfile to pyproject.toml and uv package manager
+- Update CI workflows to use the latest GitHub Actions and uv
+- Replace Pipenv with uv for dependency management
+- Add Ruff as the new linter replacing previous linting tools
+- Fix UserWarning about deprecated pkg_resources usage
+- Update Makefile commands to use uv instead of pipenv
+- Remove .editorconfig, Pipfile, Pipfile.lock, and setup.cfg
+- Consolidate all project configuration into pyproject.toml
+- Fix failing tests and improve test reliability
+- Add uv.lock for deterministic dependency resolution
+
 Version 1.1.2
 
 - Add github actions for publishing to pypi
