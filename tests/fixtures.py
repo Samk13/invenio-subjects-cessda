@@ -4,22 +4,31 @@
 # invenio-subjects-CESSDA is free software, you can redistribute it and/or
 # modify it under the terms of the MIT License; see LICENSE file details.
 
-import os
 
 import pytest
 
 
 @pytest.fixture()
-def create_yaml_path():
-    """Set a temp path for testing. and remove it after closing the session."""
-    f_path = f"{os.getcwd()}/tests/test.yaml"
-    yield f_path
-    os.remove(f_path)
+def create_yaml_path(tmp_path):
+    """Provide a temporary YAML path."""
+    path = tmp_path / "test.yaml"
+    yield str(path)
+    path.unlink(missing_ok=True)
 
 
 @pytest.fixture()
-def create_json_path():
-    """Set a temp path for testing. and remove it after closing the session."""
-    f_path = f"{os.getcwd()}/tests/test.json"
-    yield f_path
-    os.remove(f_path)
+def create_json_path(tmp_path):
+    """Provide a temporary JSON path."""
+    path = tmp_path / "test.json"
+    yield str(path)
+    path.unlink(missing_ok=True)
+
+
+@pytest.fixture()
+def create_delta_path(tmp_path):
+    """Provide a temporary delta report path."""
+    path = tmp_path / "delta-report.json"
+    yield str(path)
+    for file in tmp_path.glob("delta-report_*.json"):
+        file.unlink(missing_ok=True)
+    path.unlink(missing_ok=True)

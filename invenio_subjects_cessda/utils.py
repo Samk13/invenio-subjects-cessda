@@ -83,11 +83,15 @@ def get_latest_versions(data, languages):
                         )
 
                         logger.debug("latest version: %s", latest_version)
+                        endpoint = convert_url(versions[latest_version])
+                        if not endpoint:
+                            continue
                         result.append(
                             {
                                 "name": f"{provider} - {category}",
-                                "endpoint": convert_url(versions[latest_version]),
+                                "endpoint": endpoint,
                             }
                         )
+    result.sort(key=lambda entry: entry["name"].lower())
     logger.debug("Get latest versions for languages: '%s' completed", languages)
     return result

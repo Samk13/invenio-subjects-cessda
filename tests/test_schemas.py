@@ -10,4 +10,4 @@ from tests.data import expected_schema, test_data
 
 def test_cessda_schema():
     """Test Schema output."""
-    assert cessda_schema(("Type of Address", test_data[0])) == expected_schema
+    assert cessda_schema(test_data[0]) == expected_schema

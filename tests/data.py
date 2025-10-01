@@ -33,13 +33,11 @@ res_data = [
     "https://vocabularies.cessda.eu/vocabulary/TopicClassification_SignsAndSymptomsPathologicalConditions?v=4.2&id=14131",
 ]
 
-expected_schema = [
-    {
-        "id": "https://vocabularies.cessda.eu/vocabulary/TypeOfAddress_Mailing?v=1.1&id=8812",
-        "scheme": "CESSDA",
-        "subject": "Mailing address",
-    }
-]
+expected_schema = {
+    "id": "https://vocabularies.cessda.eu/vocabulary/TypeOfAddress_Mailing?v=1.1&id=8812",
+    "scheme": "CESSDA",
+    "subject": "Mailing address",
+}
 
 urls_to_fetch = [
     {

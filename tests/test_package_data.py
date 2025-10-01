@@ -1,5 +1,6 @@
 """Packaging-level assertions for invenio_subjects_cessda."""
 
+import json
 from importlib import resources
 
 import invenio_subjects_cessda
@@ -11,3 +12,7 @@ def test_vocabularies_bundle_contains_yaml():
     yaml_file = vocab_dir.joinpath("cessda_voc.yaml")
     assert yaml_file.is_file()
     assert yaml_file.read_text(encoding="utf-8")
+
+    delta_file = vocab_dir.joinpath("cessda_voc_delta.json")
+    assert delta_file.is_file()
+    json.loads(delta_file.read_text(encoding="utf-8"))

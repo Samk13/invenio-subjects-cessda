@@ -1,16 +1,8 @@
-include *.md
-include *.sh
-include *.txt
-include *.py
+include README.md
+include LICENSE
 include license
-include .pylintrc
-include Makefile
-include .editorconfig
-recursive-include .github *.yaml
-recursive-include invenio_subjects_cessda *.csv
-recursive-include invenio_subjects_cessda *.py
-recursive-include invenio_subjects_cessda *.yaml
-recursive-include tests *.py
-include *.lock
-include Pipfile
-include .vscode/*
+include CHANGES.md
+include pyproject.toml
+include invenio_subjects_cessda/__init__.py
+include invenio_subjects_cessda/vocabularies/__init__.py
+recursive-include invenio_subjects_cessda/vocabularies *.yaml *.json *.md
